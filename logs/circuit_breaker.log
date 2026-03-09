@@ -1,0 +1,121 @@
+{"timestamp": "2026-03-03T11:30:09.715462", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3)"}
+{"timestamp": "2026-03-03T11:30:09.716170", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (2/3)"}
+{"timestamp": "2026-03-03T11:30:09.716950", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (3/3)"}
+{"timestamp": "2026-03-03T11:30:09.717603", "circuit": "test", "state": "OPEN", "level": "error", "message": "Circuit OPENED after 3 failures"}
+{"timestamp": "2026-03-03T11:30:09.720370", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3)"}
+{"timestamp": "2026-03-03T11:30:09.721465", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (2/3)"}
+{"timestamp": "2026-03-03T11:30:09.722169", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (3/3)"}
+{"timestamp": "2026-03-03T11:30:09.722844", "circuit": "test", "state": "OPEN", "level": "error", "message": "Circuit OPENED after 3 failures"}
+{"timestamp": "2026-03-03T11:30:11.223844", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Timeout elapsed, transitioning to HALF_OPEN (elapsed: 1.5s)"}
+{"timestamp": "2026-03-03T11:30:11.226893", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3)"}
+{"timestamp": "2026-03-03T11:30:11.227566", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (2/3)"}
+{"timestamp": "2026-03-03T11:30:11.228121", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (3/3)"}
+{"timestamp": "2026-03-03T11:30:11.228658", "circuit": "test", "state": "OPEN", "level": "error", "message": "Circuit OPENED after 3 failures"}
+{"timestamp": "2026-03-03T11:30:12.729486", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Timeout elapsed, transitioning to HALF_OPEN (elapsed: 1.5s)"}
+{"timestamp": "2026-03-03T11:30:12.730123", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Success recorded (1/2)"}
+{"timestamp": "2026-03-03T11:30:12.730633", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Success recorded (2/2)"}
+{"timestamp": "2026-03-03T11:30:12.731076", "circuit": "test", "state": "CLOSED", "level": "info", "message": "Circuit CLOSED - recovery successful"}
+{"timestamp": "2026-03-03T11:30:12.733133", "circuit": "test", "state": "OPEN", "level": "warning", "message": "Circuit manually OPENED: Test"}
+{"timestamp": "2026-03-03T11:30:12.735097", "circuit": "test", "state": "OPEN", "level": "warning", "message": "Circuit manually OPENED: Test"}
+{"timestamp": "2026-03-03T11:30:12.735614", "circuit": "test", "state": "CLOSED", "level": "info", "message": "Circuit manually CLOSED: Test"}
+{"timestamp": "2026-03-03T12:10:32.846832", "circuit": "mt5", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3) - name 'connect' is not defined"}
+{"timestamp": "2026-03-04T09:19:10.232898", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3)"}
+{"timestamp": "2026-03-04T09:19:10.233722", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (2/3)"}
+{"timestamp": "2026-03-04T09:19:10.234094", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (3/3)"}
+{"timestamp": "2026-03-04T09:19:10.234429", "circuit": "test", "state": "OPEN", "level": "error", "message": "Circuit OPENED after 3 failures"}
+{"timestamp": "2026-03-04T09:19:10.236473", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3)"}
+{"timestamp": "2026-03-04T09:19:10.236924", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (2/3)"}
+{"timestamp": "2026-03-04T09:19:10.237280", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (3/3)"}
+{"timestamp": "2026-03-04T09:19:10.237574", "circuit": "test", "state": "OPEN", "level": "error", "message": "Circuit OPENED after 3 failures"}
+{"timestamp": "2026-03-04T09:19:11.738238", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Timeout elapsed, transitioning to HALF_OPEN (elapsed: 1.5s)"}
+{"timestamp": "2026-03-04T09:19:11.741148", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3)"}
+{"timestamp": "2026-03-04T09:19:11.741538", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (2/3)"}
+{"timestamp": "2026-03-04T09:19:11.741891", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (3/3)"}
+{"timestamp": "2026-03-04T09:19:11.742195", "circuit": "test", "state": "OPEN", "level": "error", "message": "Circuit OPENED after 3 failures"}
+{"timestamp": "2026-03-04T09:19:13.243415", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Timeout elapsed, transitioning to HALF_OPEN (elapsed: 1.5s)"}
+{"timestamp": "2026-03-04T09:19:13.243992", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Success recorded (1/2)"}
+{"timestamp": "2026-03-04T09:19:13.244584", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Success recorded (2/2)"}
+{"timestamp": "2026-03-04T09:19:13.245095", "circuit": "test", "state": "CLOSED", "level": "info", "message": "Circuit CLOSED - recovery successful"}
+{"timestamp": "2026-03-04T09:19:13.247463", "circuit": "test", "state": "OPEN", "level": "warning", "message": "Circuit manually OPENED: Test"}
+{"timestamp": "2026-03-04T09:19:13.249657", "circuit": "test", "state": "OPEN", "level": "warning", "message": "Circuit manually OPENED: Test"}
+{"timestamp": "2026-03-04T09:19:13.250007", "circuit": "test", "state": "CLOSED", "level": "info", "message": "Circuit manually CLOSED: Test"}
+{"timestamp": "2026-03-04T09:19:26.753678", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3)"}
+{"timestamp": "2026-03-04T09:19:26.754185", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (2/3)"}
+{"timestamp": "2026-03-04T09:19:26.754545", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (3/3)"}
+{"timestamp": "2026-03-04T09:19:26.754846", "circuit": "test", "state": "OPEN", "level": "error", "message": "Circuit OPENED after 3 failures"}
+{"timestamp": "2026-03-04T09:19:26.756145", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3)"}
+{"timestamp": "2026-03-04T09:19:26.756489", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (2/3)"}
+{"timestamp": "2026-03-04T09:19:26.756816", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (3/3)"}
+{"timestamp": "2026-03-04T09:19:26.757135", "circuit": "test", "state": "OPEN", "level": "error", "message": "Circuit OPENED after 3 failures"}
+{"timestamp": "2026-03-04T09:19:28.257958", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Timeout elapsed, transitioning to HALF_OPEN (elapsed: 1.5s)"}
+{"timestamp": "2026-03-04T09:19:28.260437", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3)"}
+{"timestamp": "2026-03-04T09:19:28.260965", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (2/3)"}
+{"timestamp": "2026-03-04T09:19:28.261525", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (3/3)"}
+{"timestamp": "2026-03-04T09:19:28.262012", "circuit": "test", "state": "OPEN", "level": "error", "message": "Circuit OPENED after 3 failures"}
+{"timestamp": "2026-03-04T09:19:29.763328", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Timeout elapsed, transitioning to HALF_OPEN (elapsed: 1.5s)"}
+{"timestamp": "2026-03-04T09:19:29.764184", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Success recorded (1/2)"}
+{"timestamp": "2026-03-04T09:19:29.764768", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Success recorded (2/2)"}
+{"timestamp": "2026-03-04T09:19:29.765186", "circuit": "test", "state": "CLOSED", "level": "info", "message": "Circuit CLOSED - recovery successful"}
+{"timestamp": "2026-03-04T09:19:29.767276", "circuit": "test", "state": "OPEN", "level": "warning", "message": "Circuit manually OPENED: Test"}
+{"timestamp": "2026-03-04T09:19:29.769370", "circuit": "test", "state": "OPEN", "level": "warning", "message": "Circuit manually OPENED: Test"}
+{"timestamp": "2026-03-04T09:19:29.769979", "circuit": "test", "state": "CLOSED", "level": "info", "message": "Circuit manually CLOSED: Test"}
+{"timestamp": "2026-03-04T09:19:43.656577", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3)"}
+{"timestamp": "2026-03-04T09:19:43.657000", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (2/3)"}
+{"timestamp": "2026-03-04T09:19:43.657378", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (3/3)"}
+{"timestamp": "2026-03-04T09:19:43.657723", "circuit": "test", "state": "OPEN", "level": "error", "message": "Circuit OPENED after 3 failures"}
+{"timestamp": "2026-03-04T09:19:43.659589", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3)"}
+{"timestamp": "2026-03-04T09:19:43.660084", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (2/3)"}
+{"timestamp": "2026-03-04T09:19:43.660436", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (3/3)"}
+{"timestamp": "2026-03-04T09:19:43.660831", "circuit": "test", "state": "OPEN", "level": "error", "message": "Circuit OPENED after 3 failures"}
+{"timestamp": "2026-03-04T09:19:45.161594", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Timeout elapsed, transitioning to HALF_OPEN (elapsed: 1.5s)"}
+{"timestamp": "2026-03-04T09:19:45.165316", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3)"}
+{"timestamp": "2026-03-04T09:19:45.166161", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (2/3)"}
+{"timestamp": "2026-03-04T09:19:45.166851", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (3/3)"}
+{"timestamp": "2026-03-04T09:19:45.167587", "circuit": "test", "state": "OPEN", "level": "error", "message": "Circuit OPENED after 3 failures"}
+{"timestamp": "2026-03-04T09:19:46.668714", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Timeout elapsed, transitioning to HALF_OPEN (elapsed: 1.5s)"}
+{"timestamp": "2026-03-04T09:19:46.669526", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Success recorded (1/2)"}
+{"timestamp": "2026-03-04T09:19:46.670047", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Success recorded (2/2)"}
+{"timestamp": "2026-03-04T09:19:46.670746", "circuit": "test", "state": "CLOSED", "level": "info", "message": "Circuit CLOSED - recovery successful"}
+{"timestamp": "2026-03-04T09:19:46.673424", "circuit": "test", "state": "OPEN", "level": "warning", "message": "Circuit manually OPENED: Test"}
+{"timestamp": "2026-03-04T09:19:46.675976", "circuit": "test", "state": "OPEN", "level": "warning", "message": "Circuit manually OPENED: Test"}
+{"timestamp": "2026-03-04T09:19:46.676578", "circuit": "test", "state": "CLOSED", "level": "info", "message": "Circuit manually CLOSED: Test"}
+{"timestamp": "2026-03-04T09:20:19.059702", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3)"}
+{"timestamp": "2026-03-04T09:20:19.060261", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (2/3)"}
+{"timestamp": "2026-03-04T09:20:19.060739", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (3/3)"}
+{"timestamp": "2026-03-04T09:20:19.061173", "circuit": "test", "state": "OPEN", "level": "error", "message": "Circuit OPENED after 3 failures"}
+{"timestamp": "2026-03-04T09:20:19.063062", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3)"}
+{"timestamp": "2026-03-04T09:20:19.063587", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (2/3)"}
+{"timestamp": "2026-03-04T09:20:19.064013", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (3/3)"}
+{"timestamp": "2026-03-04T09:20:19.064513", "circuit": "test", "state": "OPEN", "level": "error", "message": "Circuit OPENED after 3 failures"}
+{"timestamp": "2026-03-04T09:20:20.565839", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Timeout elapsed, transitioning to HALF_OPEN (elapsed: 1.5s)"}
+{"timestamp": "2026-03-04T09:20:20.568614", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3)"}
+{"timestamp": "2026-03-04T09:20:20.569305", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (2/3)"}
+{"timestamp": "2026-03-04T09:20:20.569753", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (3/3)"}
+{"timestamp": "2026-03-04T09:20:20.570248", "circuit": "test", "state": "OPEN", "level": "error", "message": "Circuit OPENED after 3 failures"}
+{"timestamp": "2026-03-04T09:20:22.071111", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Timeout elapsed, transitioning to HALF_OPEN (elapsed: 1.5s)"}
+{"timestamp": "2026-03-04T09:20:22.071845", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Success recorded (1/2)"}
+{"timestamp": "2026-03-04T09:20:22.072593", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Success recorded (2/2)"}
+{"timestamp": "2026-03-04T09:20:22.073032", "circuit": "test", "state": "CLOSED", "level": "info", "message": "Circuit CLOSED - recovery successful"}
+{"timestamp": "2026-03-04T09:20:22.074928", "circuit": "test", "state": "OPEN", "level": "warning", "message": "Circuit manually OPENED: Test"}
+{"timestamp": "2026-03-04T09:20:22.076796", "circuit": "test", "state": "OPEN", "level": "warning", "message": "Circuit manually OPENED: Test"}
+{"timestamp": "2026-03-04T09:20:22.077261", "circuit": "test", "state": "CLOSED", "level": "info", "message": "Circuit manually CLOSED: Test"}
+{"timestamp": "2026-03-04T09:20:44.301056", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3)"}
+{"timestamp": "2026-03-04T09:20:44.301623", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (2/3)"}
+{"timestamp": "2026-03-04T09:20:44.302014", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (3/3)"}
+{"timestamp": "2026-03-04T09:20:44.302323", "circuit": "test", "state": "OPEN", "level": "error", "message": "Circuit OPENED after 3 failures"}
+{"timestamp": "2026-03-04T09:20:44.304311", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3)"}
+{"timestamp": "2026-03-04T09:20:44.304865", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (2/3)"}
+{"timestamp": "2026-03-04T09:20:44.305232", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (3/3)"}
+{"timestamp": "2026-03-04T09:20:44.305707", "circuit": "test", "state": "OPEN", "level": "error", "message": "Circuit OPENED after 3 failures"}
+{"timestamp": "2026-03-04T09:20:45.806779", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Timeout elapsed, transitioning to HALF_OPEN (elapsed: 1.5s)"}
+{"timestamp": "2026-03-04T09:20:45.810093", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (1/3)"}
+{"timestamp": "2026-03-04T09:20:45.810778", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (2/3)"}
+{"timestamp": "2026-03-04T09:20:45.811351", "circuit": "test", "state": "CLOSED", "level": "warning", "message": "Failure recorded (3/3)"}
+{"timestamp": "2026-03-04T09:20:45.811965", "circuit": "test", "state": "OPEN", "level": "error", "message": "Circuit OPENED after 3 failures"}
+{"timestamp": "2026-03-04T09:20:47.313148", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Timeout elapsed, transitioning to HALF_OPEN (elapsed: 1.5s)"}
+{"timestamp": "2026-03-04T09:20:47.313633", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Success recorded (1/2)"}
+{"timestamp": "2026-03-04T09:20:47.314056", "circuit": "test", "state": "HALF_OPEN", "level": "info", "message": "Success recorded (2/2)"}
+{"timestamp": "2026-03-04T09:20:47.314415", "circuit": "test", "state": "CLOSED", "level": "info", "message": "Circuit CLOSED - recovery successful"}
+{"timestamp": "2026-03-04T09:20:47.317034", "circuit": "test", "state": "OPEN", "level": "warning", "message": "Circuit manually OPENED: Test"}
+{"timestamp": "2026-03-04T09:20:47.318781", "circuit": "test", "state": "OPEN", "level": "warning", "message": "Circuit manually OPENED: Test"}
+{"timestamp": "2026-03-04T09:20:47.319222", "circuit": "test", "state": "CLOSED", "level": "info", "message": "Circuit manually CLOSED: Test"}

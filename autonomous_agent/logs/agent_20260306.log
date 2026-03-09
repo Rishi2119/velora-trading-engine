@@ -1,0 +1,1184 @@
+2026-03-06 18:53:43,504 - autonomous_agent - INFO - AI reasoning enabled. Preferred model: moonshot-ai/kimi-k2-instruct
+2026-03-06 18:53:43,505 - autonomous_agent - WARNING - [LIVE] LIVE TRADING ENABLED via config.yaml -- real orders will be placed!
+2026-03-06 18:53:43,507 - autonomous_agent - INFO - Risk system initialized.
+2026-03-06 18:53:43,510 - autonomous_agent - INFO - ExecutionLayer initialized.
+2026-03-06 18:53:43,510 - autonomous_agent - INFO - New goal accepted: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is identified, execute a small trade. Always respect the kill switch and risk limits.
+2026-03-06 18:53:43,511 - autonomous_agent - INFO - ============================================================
+2026-03-06 18:53:43,511 - autonomous_agent - INFO -   Velora Autonomous Agent — STARTED
+2026-03-06 18:53:43,512 - autonomous_agent - INFO -   Loop interval: 30s | Max iterations: 10000
+2026-03-06 18:53:43,512 - autonomous_agent - INFO - ============================================================
+2026-03-06 18:53:43,512 - autonomous_agent - INFO - --- Iteration 1 | 2026-03-06 18:53:43 ---
+2026-03-06 18:53:43,513 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 18:53:43,527 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 18:53:43,528 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (0.1)
+2026-03-06 18:53:55,514 - autonomous_agent - DEBUG - Model not available: moonshot-ai/kimi-k2-instruct (404) -- trying next.
+2026-03-06 18:54:03,021 - autonomous_agent - INFO - AI reasoning enabled. Preferred model: moonshot-ai/kimi-k2-instruct
+2026-03-06 18:54:03,021 - autonomous_agent - WARNING - [LIVE] LIVE TRADING ENABLED via config.yaml -- real orders will be placed!
+2026-03-06 18:54:03,022 - autonomous_agent - INFO - Risk system initialized.
+2026-03-06 18:54:03,023 - autonomous_agent - INFO - ExecutionLayer initialized.
+2026-03-06 18:54:03,024 - autonomous_agent - INFO - New goal accepted: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is identified, execute a small trade. Always respect the kill switch and risk limits.
+2026-03-06 18:54:03,024 - autonomous_agent - INFO - ============================================================
+2026-03-06 18:54:03,024 - autonomous_agent - INFO -   Velora Autonomous Agent — STARTED
+2026-03-06 18:54:03,025 - autonomous_agent - INFO -   Loop interval: 30s | Max iterations: 10000
+2026-03-06 18:54:03,025 - autonomous_agent - INFO - ============================================================
+2026-03-06 18:54:03,026 - autonomous_agent - INFO - --- Iteration 1 | 2026-03-06 18:54:03 ---
+2026-03-06 18:54:03,026 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 18:54:03,040 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 18:54:03,041 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.87)
+2026-03-06 18:54:07,299 - autonomous_agent - DEBUG - Model not available: moonshot-ai/kimi-k2-instruct (404) -- trying next.
+2026-03-06 18:54:19,251 - autonomous_agent - DEBUG - Model not available: nvidia/llama-3.1-nemotron-70b-instruct (404) -- trying next.
+2026-03-06 18:54:54,464 - autonomous_agent - INFO - Using model: meta/llama-3.3-70b-instruct
+2026-03-06 18:54:54,464 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 18:54:54,465 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 18:54:54,465 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 18:55:24,466 - autonomous_agent - INFO - --- Iteration 2 | 2026-03-06 18:55:24 ---
+2026-03-06 18:55:24,467 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 18:55:24,487 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 18:55:24,488 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.57)
+2026-03-06 18:55:57,706 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 18:55:57,707 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 18:55:57,707 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 18:56:27,709 - autonomous_agent - INFO - --- Iteration 3 | 2026-03-06 18:56:27 ---
+2026-03-06 18:56:27,710 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 18:56:27,732 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 18:56:27,732 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.78)
+2026-03-06 18:56:50,405 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 18:56:50,406 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 18:56:50,406 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 18:57:20,408 - autonomous_agent - INFO - --- Iteration 4 | 2026-03-06 18:57:20 ---
+2026-03-06 18:57:20,408 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 18:57:20,425 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 18:57:20,425 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.92)
+2026-03-06 18:57:35,146 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 18:57:35,146 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 18:57:35,147 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 18:58:05,148 - autonomous_agent - INFO - --- Iteration 5 | 2026-03-06 18:58:05 ---
+2026-03-06 18:58:05,149 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 18:58:05,163 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 18:58:05,164 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.63)
+2026-03-06 18:58:23,070 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 18:58:23,071 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 18:58:23,071 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 18:58:53,072 - autonomous_agent - INFO - --- Iteration 6 | 2026-03-06 18:58:53 ---
+2026-03-06 18:58:53,073 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 18:58:53,089 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 18:58:53,090 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.97)
+2026-03-06 18:59:26,699 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 18:59:26,700 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 18:59:26,700 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 18:59:56,701 - autonomous_agent - INFO - --- Iteration 7 | 2026-03-06 18:59:56 ---
+2026-03-06 18:59:56,702 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 18:59:56,724 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 18:59:56,725 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.46)
+2026-03-06 19:00:13,438 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:00:13,438 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:00:13,439 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:00:43,440 - autonomous_agent - INFO - --- Iteration 8 | 2026-03-06 19:00:43 ---
+2026-03-06 19:00:43,440 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:00:43,458 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:00:43,458 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.46)
+2026-03-06 19:01:10,000 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:01:10,001 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:01:10,001 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:01:40,002 - autonomous_agent - INFO - --- Iteration 9 | 2026-03-06 19:01:40 ---
+2026-03-06 19:01:40,003 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:01:40,020 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:01:40,021 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.86)
+2026-03-06 19:01:59,309 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 19:01:59,309 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 19:01:59,310 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:02:29,311 - autonomous_agent - INFO - --- Iteration 10 | 2026-03-06 19:02:29 ---
+2026-03-06 19:02:29,312 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:02:29,330 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:02:29,330 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.73)
+2026-03-06 19:02:44,920 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 19:02:44,920 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 19:02:44,921 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:03:14,922 - autonomous_agent - INFO - --- Iteration 11 | 2026-03-06 19:03:14 ---
+2026-03-06 19:03:14,923 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:03:14,945 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:03:14,946 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.69)
+2026-03-06 19:03:39,499 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:03:39,499 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:03:39,500 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:04:09,501 - autonomous_agent - INFO - --- Iteration 12 | 2026-03-06 19:04:09 ---
+2026-03-06 19:04:09,501 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:04:09,517 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:04:09,518 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.82)
+2026-03-06 19:04:25,108 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:04:25,108 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:04:25,109 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:04:55,109 - autonomous_agent - INFO - --- Iteration 13 | 2026-03-06 19:04:55 ---
+2026-03-06 19:04:55,110 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:04:55,127 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:04:55,128 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (-0.04)
+2026-03-06 19:05:09,051 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:05:09,052 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:05:09,052 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:05:39,053 - autonomous_agent - INFO - --- Iteration 14 | 2026-03-06 19:05:39 ---
+2026-03-06 19:05:39,054 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:05:39,069 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:05:39,069 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.12)
+2026-03-06 19:05:53,626 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:05:53,626 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:05:53,627 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:06:23,628 - autonomous_agent - INFO - --- Iteration 15 | 2026-03-06 19:06:23 ---
+2026-03-06 19:06:23,629 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:06:23,653 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:06:23,654 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.44)
+2026-03-06 19:06:38,186 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:06:38,187 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:06:38,187 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:07:08,188 - autonomous_agent - INFO - --- Iteration 16 | 2026-03-06 19:07:08 ---
+2026-03-06 19:07:08,189 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:07:08,212 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:07:08,213 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.32)
+2026-03-06 19:07:23,055 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:07:23,056 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:07:23,056 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:07:53,057 - autonomous_agent - INFO - --- Iteration 17 | 2026-03-06 19:07:53 ---
+2026-03-06 19:07:53,058 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:07:53,084 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:07:53,084 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.49)
+2026-03-06 19:08:08,567 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:08:08,568 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:08:08,569 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:08:38,570 - autonomous_agent - INFO - --- Iteration 18 | 2026-03-06 19:08:38 ---
+2026-03-06 19:08:38,570 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:08:38,591 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:08:38,592 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.43)
+2026-03-06 19:08:54,211 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:08:54,212 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:08:54,212 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:09:24,213 - autonomous_agent - INFO - --- Iteration 19 | 2026-03-06 19:09:24 ---
+2026-03-06 19:09:24,214 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:09:24,235 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:09:24,235 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.49)
+2026-03-06 19:09:40,627 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:09:40,627 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:09:40,628 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:10:10,629 - autonomous_agent - INFO - --- Iteration 20 | 2026-03-06 19:10:10 ---
+2026-03-06 19:10:10,629 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:10:10,645 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:10:10,645 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.55)
+2026-03-06 19:10:25,227 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:10:25,227 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:10:25,228 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:10:55,229 - autonomous_agent - INFO - --- Iteration 21 | 2026-03-06 19:10:55 ---
+2026-03-06 19:10:55,230 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:10:55,244 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:10:55,245 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (1.0)
+2026-03-06 19:11:09,618 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 1.0)
+2026-03-06 19:11:09,619 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 100% | Threshold: 65%
+2026-03-06 19:11:09,619 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:11:39,620 - autonomous_agent - INFO - --- Iteration 22 | 2026-03-06 19:11:39 ---
+2026-03-06 19:11:39,621 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:11:39,636 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:11:39,636 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (0.09)
+2026-03-06 19:11:55,669 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:11:55,670 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:11:55,670 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:12:25,671 - autonomous_agent - INFO - --- Iteration 23 | 2026-03-06 19:12:25 ---
+2026-03-06 19:12:25,672 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:12:25,705 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:12:25,706 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (-0.09)
+2026-03-06 19:12:41,492 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 19:12:41,493 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 19:12:41,493 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:13:11,494 - autonomous_agent - INFO - --- Iteration 24 | 2026-03-06 19:13:11 ---
+2026-03-06 19:13:11,495 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:13:11,518 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:13:11,518 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.87)
+2026-03-06 19:13:25,733 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 19:13:25,733 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 19:13:25,734 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:13:55,735 - autonomous_agent - INFO - --- Iteration 25 | 2026-03-06 19:13:55 ---
+2026-03-06 19:13:55,735 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:13:55,750 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:13:55,751 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.65)
+2026-03-06 19:14:14,190 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 19:14:14,191 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 19:14:14,191 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:14:44,192 - autonomous_agent - INFO - --- Iteration 26 | 2026-03-06 19:14:44 ---
+2026-03-06 19:14:44,193 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:14:44,213 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:14:44,213 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.94)
+2026-03-06 19:14:59,312 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.98)
+2026-03-06 19:14:59,312 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 98% | Threshold: 65%
+2026-03-06 19:14:59,312 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:15:29,313 - autonomous_agent - INFO - --- Iteration 27 | 2026-03-06 19:15:29 ---
+2026-03-06 19:15:29,314 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:15:29,330 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:15:29,331 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.71)
+2026-03-06 19:15:43,293 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:15:43,294 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:15:43,294 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:16:13,295 - autonomous_agent - INFO - --- Iteration 28 | 2026-03-06 19:16:13 ---
+2026-03-06 19:16:13,296 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:16:13,312 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:16:13,312 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (0.03)
+2026-03-06 19:16:31,939 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:16:31,940 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:16:31,940 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:17:01,941 - autonomous_agent - INFO - --- Iteration 29 | 2026-03-06 19:17:01 ---
+2026-03-06 19:17:01,942 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:17:02,066 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:17:02,066 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.84)
+2026-03-06 19:17:19,629 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 19:17:19,629 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 19:17:19,630 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:17:49,631 - autonomous_agent - INFO - --- Iteration 30 | 2026-03-06 19:17:49 ---
+2026-03-06 19:17:49,631 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:17:49,657 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:17:49,657 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.37)
+2026-03-06 19:18:05,208 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:18:05,208 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:18:05,209 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:18:35,210 - autonomous_agent - INFO - --- Iteration 31 | 2026-03-06 19:18:35 ---
+2026-03-06 19:18:35,211 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:18:35,227 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:18:35,227 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.53)
+2026-03-06 19:18:50,200 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:18:50,200 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:18:50,201 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:19:20,212 - autonomous_agent - INFO - --- Iteration 32 | 2026-03-06 19:19:20 ---
+2026-03-06 19:19:20,213 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:19:20,229 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:19:20,229 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.34)
+2026-03-06 19:19:35,722 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:19:35,722 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:19:35,723 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:20:05,723 - autonomous_agent - INFO - --- Iteration 33 | 2026-03-06 19:20:05 ---
+2026-03-06 19:20:05,724 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:20:05,739 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:20:05,740 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.86)
+2026-03-06 19:20:19,365 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 19:20:19,366 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 19:20:19,366 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:20:49,367 - autonomous_agent - INFO - --- Iteration 34 | 2026-03-06 19:20:49 ---
+2026-03-06 19:20:49,368 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:20:49,385 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:20:49,386 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.4)
+2026-03-06 19:21:11,795 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:21:11,796 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:21:11,796 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:21:41,797 - autonomous_agent - INFO - --- Iteration 35 | 2026-03-06 19:21:41 ---
+2026-03-06 19:21:41,798 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:21:41,814 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:21:41,815 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.9)
+2026-03-06 19:21:56,356 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:21:56,357 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:21:56,357 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:22:26,358 - autonomous_agent - INFO - --- Iteration 36 | 2026-03-06 19:22:26 ---
+2026-03-06 19:22:26,359 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:22:26,382 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:22:26,382 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.44)
+2026-03-06 19:22:41,429 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:22:41,429 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:22:41,430 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:23:11,431 - autonomous_agent - INFO - --- Iteration 37 | 2026-03-06 19:23:11 ---
+2026-03-06 19:23:11,432 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:23:11,449 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:23:11,449 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.93)
+2026-03-06 19:23:26,943 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 19:23:26,944 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 19:23:26,944 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:23:57,047 - autonomous_agent - INFO - --- Iteration 38 | 2026-03-06 19:23:56 ---
+2026-03-06 19:23:57,048 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:23:57,067 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:23:57,067 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.71)
+2026-03-06 19:24:12,304 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 19:24:12,305 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 19:24:12,305 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:24:42,306 - autonomous_agent - INFO - --- Iteration 39 | 2026-03-06 19:24:42 ---
+2026-03-06 19:24:42,307 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:24:42,325 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:24:42,326 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (0.1)
+2026-03-06 19:25:00,287 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:25:00,288 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:25:00,288 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:25:30,315 - autonomous_agent - INFO - --- Iteration 40 | 2026-03-06 19:25:30 ---
+2026-03-06 19:25:30,316 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:25:30,332 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:25:30,333 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (-0.08)
+2026-03-06 19:25:45,285 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:25:45,286 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:25:45,287 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:26:15,288 - autonomous_agent - INFO - --- Iteration 41 | 2026-03-06 19:26:15 ---
+2026-03-06 19:26:15,288 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:26:15,305 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:26:15,305 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.88)
+2026-03-06 19:26:28,969 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.85)
+2026-03-06 19:26:28,970 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 85% | Threshold: 65%
+2026-03-06 19:26:28,971 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:26:58,972 - autonomous_agent - INFO - --- Iteration 42 | 2026-03-06 19:26:58 ---
+2026-03-06 19:26:58,973 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:26:58,989 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:26:58,990 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (0.07)
+2026-03-06 19:27:14,496 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:27:14,497 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:27:14,498 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:27:44,499 - autonomous_agent - INFO - --- Iteration 43 | 2026-03-06 19:27:44 ---
+2026-03-06 19:27:44,499 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:27:44,522 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:27:44,522 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.73)
+2026-03-06 19:28:02,608 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:28:02,608 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:28:02,609 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:28:32,610 - autonomous_agent - INFO - --- Iteration 44 | 2026-03-06 19:28:32 ---
+2026-03-06 19:28:32,610 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:28:32,628 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:28:32,629 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.57)
+2026-03-06 19:28:48,508 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:28:48,509 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:28:48,509 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:29:18,510 - autonomous_agent - INFO - --- Iteration 45 | 2026-03-06 19:29:18 ---
+2026-03-06 19:29:18,511 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:29:18,538 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:29:18,539 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.61)
+2026-03-06 19:29:32,297 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:29:32,298 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:29:32,298 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:30:02,299 - autonomous_agent - INFO - --- Iteration 46 | 2026-03-06 19:30:02 ---
+2026-03-06 19:30:02,299 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:30:02,316 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:30:02,317 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.21)
+2026-03-06 19:30:18,040 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:30:18,041 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:30:18,041 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:30:48,042 - autonomous_agent - INFO - --- Iteration 47 | 2026-03-06 19:30:48 ---
+2026-03-06 19:30:48,043 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:30:48,061 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:30:48,062 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.36)
+2026-03-06 19:31:02,683 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:31:02,684 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:31:02,684 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:31:32,685 - autonomous_agent - INFO - --- Iteration 48 | 2026-03-06 19:31:32 ---
+2026-03-06 19:31:32,686 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:31:32,705 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:31:32,705 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.3)
+2026-03-06 19:31:47,349 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 19:31:47,350 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 19:31:47,350 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:32:17,351 - autonomous_agent - INFO - --- Iteration 49 | 2026-03-06 19:32:17 ---
+2026-03-06 19:32:17,352 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:32:17,476 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:32:17,476 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.57)
+2026-03-06 19:32:31,275 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:32:31,276 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:32:31,276 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:33:01,277 - autonomous_agent - INFO - --- Iteration 50 | 2026-03-06 19:33:01 ---
+2026-03-06 19:33:01,278 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:33:01,297 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:33:01,297 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.12)
+2026-03-06 19:33:15,681 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:33:15,682 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:33:15,682 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:33:45,683 - autonomous_agent - INFO - --- Iteration 51 | 2026-03-06 19:33:45 ---
+2026-03-06 19:33:45,683 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:33:45,699 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:33:45,699 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (-0.04)
+2026-03-06 19:34:00,401 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:34:00,401 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:34:00,402 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:34:30,403 - autonomous_agent - INFO - --- Iteration 52 | 2026-03-06 19:34:30 ---
+2026-03-06 19:34:30,403 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:34:30,419 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:34:30,419 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.64)
+2026-03-06 19:34:44,679 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 19:34:44,679 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 19:34:44,680 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:35:14,681 - autonomous_agent - INFO - --- Iteration 53 | 2026-03-06 19:35:14 ---
+2026-03-06 19:35:14,681 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:35:14,799 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:35:14,799 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.68)
+2026-03-06 19:35:34,399 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:35:34,400 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:35:34,400 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:36:04,401 - autonomous_agent - INFO - --- Iteration 54 | 2026-03-06 19:36:04 ---
+2026-03-06 19:36:04,402 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:36:04,561 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:36:04,561 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.26)
+2026-03-06 19:36:19,170 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:36:19,171 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:36:19,171 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:36:49,172 - autonomous_agent - INFO - --- Iteration 55 | 2026-03-06 19:36:49 ---
+2026-03-06 19:36:49,173 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:36:49,189 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:36:49,190 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.24)
+2026-03-06 19:37:03,431 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:37:03,431 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:37:03,431 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:37:33,432 - autonomous_agent - INFO - --- Iteration 56 | 2026-03-06 19:37:33 ---
+2026-03-06 19:37:33,433 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:37:33,449 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:37:33,450 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.17)
+2026-03-06 19:37:52,265 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:37:52,265 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:37:52,266 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:38:22,267 - autonomous_agent - INFO - --- Iteration 57 | 2026-03-06 19:38:22 ---
+2026-03-06 19:38:22,268 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:38:22,287 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:38:22,287 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.12)
+2026-03-06 19:38:37,678 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:38:37,679 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:38:37,679 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:39:07,680 - autonomous_agent - INFO - --- Iteration 58 | 2026-03-06 19:39:07 ---
+2026-03-06 19:39:07,681 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:39:07,696 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:39:07,696 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.73)
+2026-03-06 19:39:22,203 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:39:22,203 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:39:22,204 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:39:52,205 - autonomous_agent - INFO - --- Iteration 59 | 2026-03-06 19:39:52 ---
+2026-03-06 19:39:52,205 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:39:52,221 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:39:52,222 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.93)
+2026-03-06 19:40:06,617 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:40:06,618 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:40:06,618 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:40:36,619 - autonomous_agent - INFO - --- Iteration 60 | 2026-03-06 19:40:36 ---
+2026-03-06 19:40:36,620 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:40:36,640 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:40:36,640 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.59)
+2026-03-06 19:40:50,606 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:40:50,607 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:40:50,607 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:41:20,608 - autonomous_agent - INFO - --- Iteration 61 | 2026-03-06 19:41:20 ---
+2026-03-06 19:41:20,609 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:41:20,626 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:41:20,626 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.34)
+2026-03-06 19:41:39,714 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:41:39,714 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:41:39,715 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:42:09,715 - autonomous_agent - INFO - --- Iteration 62 | 2026-03-06 19:42:09 ---
+2026-03-06 19:42:09,716 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:42:09,740 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:42:09,740 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.55)
+2026-03-06 19:42:23,812 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 19:42:23,813 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 19:42:23,813 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:42:53,814 - autonomous_agent - INFO - --- Iteration 63 | 2026-03-06 19:42:53 ---
+2026-03-06 19:42:53,815 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:42:53,833 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:42:53,834 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.99)
+2026-03-06 19:43:21,321 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 19:43:21,321 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 19:43:21,322 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:43:51,322 - autonomous_agent - INFO - --- Iteration 64 | 2026-03-06 19:43:51 ---
+2026-03-06 19:43:51,323 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:43:51,341 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:43:51,341 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.4)
+2026-03-06 19:44:08,418 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:44:08,419 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:44:08,420 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:44:38,421 - autonomous_agent - INFO - --- Iteration 65 | 2026-03-06 19:44:38 ---
+2026-03-06 19:44:38,422 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:44:38,467 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:44:38,467 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.41)
+2026-03-06 19:45:01,785 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:45:01,785 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:45:01,786 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:45:31,787 - autonomous_agent - INFO - --- Iteration 66 | 2026-03-06 19:45:31 ---
+2026-03-06 19:45:31,789 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:45:31,825 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:45:31,826 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.97)
+2026-03-06 19:45:45,370 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:45:45,370 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:45:45,371 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:46:15,372 - autonomous_agent - INFO - --- Iteration 67 | 2026-03-06 19:46:15 ---
+2026-03-06 19:46:15,373 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:46:15,388 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:46:15,388 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.56)
+2026-03-06 19:46:29,881 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:46:29,881 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:46:29,882 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:46:59,883 - autonomous_agent - INFO - --- Iteration 68 | 2026-03-06 19:46:59 ---
+2026-03-06 19:46:59,883 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:46:59,902 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:46:59,903 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.13)
+2026-03-06 19:47:15,146 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:47:15,146 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:47:15,147 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:47:45,147 - autonomous_agent - INFO - --- Iteration 69 | 2026-03-06 19:47:45 ---
+2026-03-06 19:47:45,148 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:47:45,167 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:47:45,168 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.11)
+2026-03-06 19:48:27,338 - autonomous_agent - WARNING - Timeout [meta/llama-3.3-70b-instruct] attempt 1/3
+2026-03-06 19:48:44,741 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:48:44,742 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:48:44,742 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:49:14,743 - autonomous_agent - INFO - --- Iteration 70 | 2026-03-06 19:49:14 ---
+2026-03-06 19:49:14,744 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:49:14,757 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:49:14,757 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.34)
+2026-03-06 19:49:29,767 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:49:29,768 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:49:29,769 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:49:59,770 - autonomous_agent - INFO - --- Iteration 71 | 2026-03-06 19:49:59 ---
+2026-03-06 19:49:59,772 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:49:59,795 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:49:59,795 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.49)
+2026-03-06 19:50:18,227 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:50:18,228 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:50:18,228 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:50:48,229 - autonomous_agent - INFO - --- Iteration 72 | 2026-03-06 19:50:48 ---
+2026-03-06 19:50:48,230 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:50:48,247 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:50:48,247 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.45)
+2026-03-06 19:51:08,568 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:51:08,568 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:51:08,569 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:51:38,570 - autonomous_agent - INFO - --- Iteration 73 | 2026-03-06 19:51:38 ---
+2026-03-06 19:51:38,570 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:51:38,584 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:51:38,585 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.76)
+2026-03-06 19:51:52,178 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 19:51:52,178 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 19:51:52,178 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:52:22,179 - autonomous_agent - INFO - --- Iteration 74 | 2026-03-06 19:52:22 ---
+2026-03-06 19:52:22,180 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:52:22,195 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:52:22,195 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.73)
+2026-03-06 19:52:38,538 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 19:52:38,538 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 19:52:38,539 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:53:08,540 - autonomous_agent - INFO - --- Iteration 75 | 2026-03-06 19:53:08 ---
+2026-03-06 19:53:08,540 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:53:08,564 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:53:08,565 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.89)
+2026-03-06 19:53:23,423 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 19:53:23,423 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 19:53:23,424 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:53:53,425 - autonomous_agent - INFO - --- Iteration 76 | 2026-03-06 19:53:53 ---
+2026-03-06 19:53:53,425 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:53:53,532 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:53:53,533 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.48)
+2026-03-06 19:54:07,892 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:54:07,892 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:54:07,893 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:54:37,893 - autonomous_agent - INFO - --- Iteration 77 | 2026-03-06 19:54:37 ---
+2026-03-06 19:54:37,894 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:54:37,917 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:54:37,997 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.31)
+2026-03-06 19:54:52,096 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:54:52,097 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:54:52,098 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:55:22,100 - autonomous_agent - INFO - --- Iteration 78 | 2026-03-06 19:55:22 ---
+2026-03-06 19:55:22,101 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:55:22,129 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:55:22,129 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.38)
+2026-03-06 19:55:37,281 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:55:37,282 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:55:37,283 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:56:07,284 - autonomous_agent - INFO - --- Iteration 79 | 2026-03-06 19:56:07 ---
+2026-03-06 19:56:07,284 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:56:07,299 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:56:07,299 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.46)
+2026-03-06 19:56:21,993 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:56:21,993 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:56:21,994 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:56:51,995 - autonomous_agent - INFO - --- Iteration 80 | 2026-03-06 19:56:51 ---
+2026-03-06 19:56:51,995 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:56:52,011 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:56:52,012 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.51)
+2026-03-06 19:57:05,470 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:57:05,470 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:57:05,470 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:57:35,471 - autonomous_agent - INFO - --- Iteration 81 | 2026-03-06 19:57:35 ---
+2026-03-06 19:57:35,472 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:57:35,481 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:57:35,482 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.3)
+2026-03-06 19:58:13,604 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 19:58:13,605 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 19:58:13,605 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 19:58:43,606 - autonomous_agent - INFO - --- Iteration 82 | 2026-03-06 19:58:43 ---
+2026-03-06 19:58:43,607 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 19:58:43,625 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 19:58:43,625 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.52)
+2026-03-06 19:59:25,503 - autonomous_agent - WARNING - Timeout [meta/llama-3.3-70b-instruct] attempt 1/3
+2026-03-06 19:59:41,124 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 19:59:41,226 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 19:59:41,227 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:00:11,228 - autonomous_agent - INFO - --- Iteration 83 | 2026-03-06 20:00:11 ---
+2026-03-06 20:00:11,228 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:00:11,241 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:00:11,241 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.31)
+2026-03-06 20:00:47,611 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:00:47,611 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:00:47,612 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:01:17,612 - autonomous_agent - INFO - --- Iteration 84 | 2026-03-06 20:01:17 ---
+2026-03-06 20:01:17,613 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:01:17,628 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:01:17,629 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (0.09)
+2026-03-06 20:01:32,434 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:01:32,435 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:01:32,435 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:02:02,436 - autonomous_agent - INFO - --- Iteration 85 | 2026-03-06 20:02:02 ---
+2026-03-06 20:02:02,437 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:02:02,464 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:02:02,464 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.86)
+2026-03-06 20:02:15,968 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:02:15,969 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:02:15,970 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:02:45,971 - autonomous_agent - INFO - --- Iteration 86 | 2026-03-06 20:02:45 ---
+2026-03-06 20:02:45,971 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:02:45,981 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:02:45,981 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.46)
+2026-03-06 20:03:00,478 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:03:00,479 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:03:00,479 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:03:30,480 - autonomous_agent - INFO - --- Iteration 87 | 2026-03-06 20:03:30 ---
+2026-03-06 20:03:30,481 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:03:30,496 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:03:30,496 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.21)
+2026-03-06 20:03:45,227 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:03:45,228 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:03:45,229 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:04:15,230 - autonomous_agent - INFO - --- Iteration 88 | 2026-03-06 20:04:15 ---
+2026-03-06 20:04:15,231 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:04:15,250 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:04:15,250 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.37)
+2026-03-06 20:04:34,301 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:04:34,301 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:04:34,302 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:05:04,302 - autonomous_agent - INFO - --- Iteration 89 | 2026-03-06 20:05:04 ---
+2026-03-06 20:05:04,303 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:05:04,324 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:05:04,325 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.37)
+2026-03-06 20:05:19,194 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:05:19,194 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:05:19,195 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:05:49,196 - autonomous_agent - INFO - --- Iteration 90 | 2026-03-06 20:05:49 ---
+2026-03-06 20:05:49,196 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:05:49,318 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:05:49,318 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.68)
+2026-03-06 20:06:03,582 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 20:06:03,582 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 20:06:03,583 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:06:33,584 - autonomous_agent - INFO - --- Iteration 91 | 2026-03-06 20:06:33 ---
+2026-03-06 20:06:33,584 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:06:33,600 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:06:33,601 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.86)
+2026-03-06 20:06:46,929 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:06:46,930 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:06:46,930 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:07:16,931 - autonomous_agent - INFO - --- Iteration 92 | 2026-03-06 20:07:16 ---
+2026-03-06 20:07:16,931 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:07:16,959 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:07:16,959 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.37)
+2026-03-06 20:07:32,281 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:07:32,282 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:07:32,282 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:08:02,283 - autonomous_agent - INFO - --- Iteration 93 | 2026-03-06 20:08:02 ---
+2026-03-06 20:08:02,284 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:08:02,294 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:08:02,294 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.11)
+2026-03-06 20:08:16,844 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.6)
+2026-03-06 20:08:16,844 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 60% | Threshold: 65%
+2026-03-06 20:08:16,845 - autonomous_agent - INFO - No execution (confidence too low). Resetting goal for next cycle.
+2026-03-06 20:08:46,845 - autonomous_agent - INFO - --- Iteration 94 | 2026-03-06 20:08:46 ---
+2026-03-06 20:08:46,846 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:08:46,867 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:08:46,868 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.17)
+2026-03-06 20:09:01,728 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:09:01,728 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:09:01,729 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:09:31,730 - autonomous_agent - INFO - --- Iteration 95 | 2026-03-06 20:09:31 ---
+2026-03-06 20:09:31,730 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:09:31,745 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:09:31,746 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (-0.08)
+2026-03-06 20:09:45,812 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:09:45,813 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:09:45,813 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:10:15,813 - autonomous_agent - INFO - --- Iteration 96 | 2026-03-06 20:10:15 ---
+2026-03-06 20:10:15,814 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:10:15,837 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:10:15,837 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.84)
+2026-03-06 20:10:29,802 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 20:10:29,803 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 20:10:29,804 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:10:59,805 - autonomous_agent - INFO - --- Iteration 97 | 2026-03-06 20:10:59 ---
+2026-03-06 20:10:59,806 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:10:59,816 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:10:59,816 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.39)
+2026-03-06 20:11:14,160 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:11:14,160 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:11:14,160 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:11:44,162 - autonomous_agent - INFO - --- Iteration 98 | 2026-03-06 20:11:44 ---
+2026-03-06 20:11:44,162 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:11:44,177 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:11:44,177 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.29)
+2026-03-06 20:12:14,353 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:12:14,354 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:12:14,354 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:12:44,356 - autonomous_agent - INFO - --- Iteration 99 | 2026-03-06 20:12:44 ---
+2026-03-06 20:12:44,356 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:12:44,371 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:12:44,371 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (0.0)
+2026-03-06 20:12:59,008 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:12:59,009 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:12:59,009 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:13:29,010 - autonomous_agent - INFO - --- Iteration 100 | 2026-03-06 20:13:29 ---
+2026-03-06 20:13:29,011 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:13:29,026 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:13:29,026 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (0.01)
+2026-03-06 20:13:42,989 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:13:42,990 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:13:42,990 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:14:12,991 - autonomous_agent - INFO - --- Iteration 101 | 2026-03-06 20:14:12 ---
+2026-03-06 20:14:12,992 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:14:13,018 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:14:13,019 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.38)
+2026-03-06 20:14:35,879 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:14:35,879 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:14:35,880 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:15:05,881 - autonomous_agent - INFO - --- Iteration 102 | 2026-03-06 20:15:05 ---
+2026-03-06 20:15:05,881 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:15:05,896 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:15:05,896 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.44)
+2026-03-06 20:15:20,775 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:15:20,776 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:15:20,776 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:15:50,776 - autonomous_agent - INFO - --- Iteration 103 | 2026-03-06 20:15:50 ---
+2026-03-06 20:15:50,777 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:15:50,793 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:15:50,793 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.15)
+2026-03-06 20:16:05,478 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:16:05,479 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:16:05,479 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:16:35,480 - autonomous_agent - INFO - --- Iteration 104 | 2026-03-06 20:16:35 ---
+2026-03-06 20:16:35,481 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:16:35,496 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:16:35,496 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (-0.02)
+2026-03-06 20:16:58,624 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 20:16:58,625 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 20:16:58,625 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:17:28,626 - autonomous_agent - INFO - --- Iteration 105 | 2026-03-06 20:17:28 ---
+2026-03-06 20:17:28,627 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:17:28,646 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:17:28,647 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.6)
+2026-03-06 20:17:52,075 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:17:52,076 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:17:52,077 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:18:22,078 - autonomous_agent - INFO - --- Iteration 106 | 2026-03-06 20:18:22 ---
+2026-03-06 20:18:22,079 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:18:22,097 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:18:22,097 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.52)
+2026-03-06 20:18:36,442 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:18:36,443 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:18:36,443 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:19:06,444 - autonomous_agent - INFO - --- Iteration 107 | 2026-03-06 20:19:06 ---
+2026-03-06 20:19:06,445 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:19:06,474 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:19:06,474 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.69)
+2026-03-06 20:19:21,615 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:19:21,615 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:19:21,616 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:19:51,616 - autonomous_agent - INFO - --- Iteration 108 | 2026-03-06 20:19:51 ---
+2026-03-06 20:19:51,617 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:19:51,632 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:19:51,632 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.52)
+2026-03-06 20:20:05,052 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:20:05,053 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:20:05,053 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:20:35,054 - autonomous_agent - INFO - --- Iteration 109 | 2026-03-06 20:20:35 ---
+2026-03-06 20:20:35,055 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:20:35,069 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:20:35,070 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.38)
+2026-03-06 20:20:50,014 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:20:50,015 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:20:50,016 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:21:20,017 - autonomous_agent - INFO - --- Iteration 110 | 2026-03-06 20:21:20 ---
+2026-03-06 20:21:20,018 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:21:20,027 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:21:20,027 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (1.0)
+2026-03-06 20:21:34,439 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:21:34,439 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:21:34,440 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:22:04,440 - autonomous_agent - INFO - --- Iteration 111 | 2026-03-06 20:22:04 ---
+2026-03-06 20:22:04,441 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:22:04,458 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:22:04,458 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (-0.05)
+2026-03-06 20:22:19,820 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:22:19,820 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:22:19,821 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:22:49,821 - autonomous_agent - INFO - --- Iteration 112 | 2026-03-06 20:22:49 ---
+2026-03-06 20:22:49,822 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:22:49,839 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:22:49,840 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.61)
+2026-03-06 20:23:08,162 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:23:08,163 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:23:08,164 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:23:38,165 - autonomous_agent - INFO - --- Iteration 113 | 2026-03-06 20:23:38 ---
+2026-03-06 20:23:38,166 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:23:38,180 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:23:38,181 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.27)
+2026-03-06 20:23:53,082 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:23:53,082 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:23:53,083 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:24:23,083 - autonomous_agent - INFO - --- Iteration 114 | 2026-03-06 20:24:23 ---
+2026-03-06 20:24:23,084 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:24:23,104 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:24:23,104 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.59)
+2026-03-06 20:24:38,012 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:24:38,012 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:24:38,013 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:25:08,014 - autonomous_agent - INFO - --- Iteration 115 | 2026-03-06 20:25:08 ---
+2026-03-06 20:25:08,014 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:25:08,028 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:25:08,029 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.41)
+2026-03-06 20:25:49,758 - autonomous_agent - WARNING - Timeout [meta/llama-3.3-70b-instruct] attempt 1/3
+2026-03-06 20:26:05,976 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:26:05,977 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:26:05,977 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:26:35,978 - autonomous_agent - INFO - --- Iteration 116 | 2026-03-06 20:26:35 ---
+2026-03-06 20:26:35,978 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:26:35,993 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:26:35,993 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.36)
+2026-03-06 20:26:51,629 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:26:51,629 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:26:51,630 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:27:21,630 - autonomous_agent - INFO - --- Iteration 117 | 2026-03-06 20:27:21 ---
+2026-03-06 20:27:21,631 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:27:21,641 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:27:21,641 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.82)
+2026-03-06 20:27:36,893 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:27:36,894 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:27:36,894 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:28:06,895 - autonomous_agent - INFO - --- Iteration 118 | 2026-03-06 20:28:06 ---
+2026-03-06 20:28:06,895 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:28:06,910 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:28:06,910 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.54)
+2026-03-06 20:28:23,287 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:28:23,287 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:28:23,288 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:28:53,289 - autonomous_agent - INFO - --- Iteration 119 | 2026-03-06 20:28:53 ---
+2026-03-06 20:28:53,290 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:28:53,317 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:28:53,317 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.41)
+2026-03-06 20:29:07,286 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:29:07,286 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:29:07,287 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:29:37,288 - autonomous_agent - INFO - --- Iteration 120 | 2026-03-06 20:29:37 ---
+2026-03-06 20:29:37,289 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:29:37,322 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:29:37,322 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.11)
+2026-03-06 20:29:52,405 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:29:52,508 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:29:52,508 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:30:22,510 - autonomous_agent - INFO - --- Iteration 121 | 2026-03-06 20:30:22 ---
+2026-03-06 20:30:22,510 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:30:22,535 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:30:22,535 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.72)
+2026-03-06 20:30:41,972 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 20:30:41,972 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 20:30:41,973 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:31:11,974 - autonomous_agent - INFO - --- Iteration 122 | 2026-03-06 20:31:11 ---
+2026-03-06 20:31:11,974 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:31:11,995 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:31:11,996 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.9)
+2026-03-06 20:31:25,596 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:31:25,597 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:31:25,597 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:31:55,598 - autonomous_agent - INFO - --- Iteration 123 | 2026-03-06 20:31:55 ---
+2026-03-06 20:31:55,598 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:31:55,608 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:31:55,608 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.54)
+2026-03-06 20:32:09,035 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:32:09,036 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:32:09,036 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:32:40,635 - autonomous_agent - INFO - --- Iteration 124 | 2026-03-06 20:32:39 ---
+2026-03-06 20:32:40,636 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:32:40,650 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:32:40,651 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.57)
+2026-03-06 20:32:54,443 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:32:54,444 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:32:54,444 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:33:24,445 - autonomous_agent - INFO - --- Iteration 125 | 2026-03-06 20:33:24 ---
+2026-03-06 20:33:24,446 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:33:24,460 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:33:24,461 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.63)
+2026-03-06 20:33:40,287 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 20:33:40,335 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 20:33:40,335 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:34:10,336 - autonomous_agent - INFO - --- Iteration 126 | 2026-03-06 20:34:10 ---
+2026-03-06 20:34:10,336 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:34:10,350 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:34:10,350 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (0.03)
+2026-03-06 20:34:25,995 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:34:25,996 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:34:25,996 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:34:55,997 - autonomous_agent - INFO - --- Iteration 127 | 2026-03-06 20:34:55 ---
+2026-03-06 20:34:55,997 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:34:56,012 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:34:56,012 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.61)
+2026-03-06 20:35:11,000 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 20:35:11,001 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 20:35:11,001 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:35:41,002 - autonomous_agent - INFO - --- Iteration 128 | 2026-03-06 20:35:41 ---
+2026-03-06 20:35:41,003 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:35:41,022 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:35:41,022 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.73)
+2026-03-06 20:35:54,790 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:35:54,791 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:35:54,791 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:36:24,792 - autonomous_agent - INFO - --- Iteration 129 | 2026-03-06 20:36:24 ---
+2026-03-06 20:36:24,793 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:36:24,807 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:36:24,808 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.2)
+2026-03-06 20:36:42,517 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:36:42,517 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:36:42,518 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:37:12,519 - autonomous_agent - INFO - --- Iteration 130 | 2026-03-06 20:37:12 ---
+2026-03-06 20:37:12,519 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:37:12,529 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:37:12,529 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.41)
+2026-03-06 20:37:27,603 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:37:27,604 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:37:27,604 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:37:57,605 - autonomous_agent - INFO - --- Iteration 131 | 2026-03-06 20:37:57 ---
+2026-03-06 20:37:57,606 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:37:57,620 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:37:57,621 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (0.07)
+2026-03-06 20:38:12,493 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:38:12,493 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:38:12,494 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:38:42,494 - autonomous_agent - INFO - --- Iteration 132 | 2026-03-06 20:38:42 ---
+2026-03-06 20:38:42,495 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:38:42,509 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:38:42,509 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.35)
+2026-03-06 20:38:59,334 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:38:59,334 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:38:59,334 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:39:29,335 - autonomous_agent - INFO - --- Iteration 133 | 2026-03-06 20:39:29 ---
+2026-03-06 20:39:29,335 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:39:29,345 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:39:29,345 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (0.05)
+2026-03-06 20:39:43,909 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:39:43,909 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:39:43,910 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:40:13,910 - autonomous_agent - INFO - --- Iteration 134 | 2026-03-06 20:40:13 ---
+2026-03-06 20:40:13,911 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:40:13,926 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:40:13,927 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.46)
+2026-03-06 20:40:28,677 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:40:28,678 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:40:28,679 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:40:58,680 - autonomous_agent - INFO - --- Iteration 135 | 2026-03-06 20:40:58 ---
+2026-03-06 20:40:58,682 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:40:58,694 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:40:58,694 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.31)
+2026-03-06 20:41:13,024 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:41:13,025 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:41:13,025 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:41:43,026 - autonomous_agent - INFO - --- Iteration 136 | 2026-03-06 20:41:43 ---
+2026-03-06 20:41:43,027 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:41:43,056 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:41:43,057 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.91)
+2026-03-06 20:41:58,416 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 20:41:58,515 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 20:41:58,516 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:42:28,517 - autonomous_agent - INFO - --- Iteration 137 | 2026-03-06 20:42:28 ---
+2026-03-06 20:42:28,518 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:42:28,535 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:42:28,535 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.82)
+2026-03-06 20:42:41,700 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 20:42:41,700 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 20:42:41,700 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:43:11,701 - autonomous_agent - INFO - --- Iteration 138 | 2026-03-06 20:43:11 ---
+2026-03-06 20:43:11,701 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:43:11,711 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:43:11,711 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.81)
+2026-03-06 20:43:25,484 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:43:25,484 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:43:25,485 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:43:55,485 - autonomous_agent - INFO - --- Iteration 139 | 2026-03-06 20:43:55 ---
+2026-03-06 20:43:55,486 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:43:55,500 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:43:55,501 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.94)
+2026-03-06 20:44:09,419 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.98)
+2026-03-06 20:44:09,420 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 98% | Threshold: 65%
+2026-03-06 20:44:09,420 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:44:39,421 - autonomous_agent - INFO - --- Iteration 140 | 2026-03-06 20:44:39 ---
+2026-03-06 20:44:39,421 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:44:39,433 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:44:39,433 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.5)
+2026-03-06 20:45:08,981 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:45:08,981 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:45:08,982 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:45:38,983 - autonomous_agent - INFO - --- Iteration 141 | 2026-03-06 20:45:38 ---
+2026-03-06 20:45:38,983 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:45:38,998 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:45:38,998 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.13)
+2026-03-06 20:45:53,751 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:45:53,751 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:45:53,752 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:46:23,752 - autonomous_agent - INFO - --- Iteration 142 | 2026-03-06 20:46:23 ---
+2026-03-06 20:46:23,753 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:46:23,762 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:46:23,763 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.42)
+2026-03-06 20:46:38,220 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:46:38,221 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:46:38,221 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:47:08,222 - autonomous_agent - INFO - --- Iteration 143 | 2026-03-06 20:47:08 ---
+2026-03-06 20:47:08,222 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:47:08,232 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:47:08,232 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.64)
+2026-03-06 20:47:22,246 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:47:22,247 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:47:22,247 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:47:52,248 - autonomous_agent - INFO - --- Iteration 144 | 2026-03-06 20:47:52 ---
+2026-03-06 20:47:52,248 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:47:52,273 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:47:52,273 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (0.09)
+2026-03-06 20:48:07,373 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:48:07,374 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:48:07,374 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:48:37,375 - autonomous_agent - INFO - --- Iteration 145 | 2026-03-06 20:48:37 ---
+2026-03-06 20:48:37,375 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:48:37,398 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:48:37,398 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (-0.06)
+2026-03-06 20:48:52,613 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:48:52,614 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:48:52,614 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:49:22,615 - autonomous_agent - INFO - --- Iteration 146 | 2026-03-06 20:49:22 ---
+2026-03-06 20:49:22,616 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:49:22,634 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:49:22,635 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (-0.07)
+2026-03-06 20:49:37,292 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:49:37,294 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:49:37,295 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:50:07,296 - autonomous_agent - INFO - --- Iteration 147 | 2026-03-06 20:50:07 ---
+2026-03-06 20:50:07,297 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:50:07,318 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:50:07,319 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.95)
+2026-03-06 20:50:21,618 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:50:21,619 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:50:21,619 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:50:51,620 - autonomous_agent - INFO - --- Iteration 148 | 2026-03-06 20:50:51 ---
+2026-03-06 20:50:51,620 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:50:51,635 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:50:51,636 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.17)
+2026-03-06 20:51:17,707 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:51:17,708 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:51:17,708 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:51:47,709 - autonomous_agent - INFO - --- Iteration 149 | 2026-03-06 20:51:47 ---
+2026-03-06 20:51:47,710 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:51:47,719 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:51:47,719 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.6)
+2026-03-06 20:52:01,248 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:52:01,249 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:52:01,250 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:52:31,252 - autonomous_agent - INFO - --- Iteration 150 | 2026-03-06 20:52:31 ---
+2026-03-06 20:52:31,253 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:52:31,270 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:52:31,271 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.21)
+2026-03-06 20:52:45,938 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:52:45,939 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:52:45,940 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:53:15,941 - autonomous_agent - INFO - --- Iteration 151 | 2026-03-06 20:53:15 ---
+2026-03-06 20:53:15,942 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:53:15,951 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:53:15,951 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.3)
+2026-03-06 20:53:30,662 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:53:30,663 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:53:30,663 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:54:00,664 - autonomous_agent - INFO - --- Iteration 152 | 2026-03-06 20:54:00 ---
+2026-03-06 20:54:00,664 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:54:00,679 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:54:00,680 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.57)
+2026-03-06 20:54:15,321 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:54:15,322 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:54:15,322 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:54:45,323 - autonomous_agent - INFO - --- Iteration 153 | 2026-03-06 20:54:45 ---
+2026-03-06 20:54:45,323 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:54:45,339 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:54:45,339 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.38)
+2026-03-06 20:55:00,141 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 20:55:00,142 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 20:55:00,143 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:55:30,143 - autonomous_agent - INFO - --- Iteration 154 | 2026-03-06 20:55:30 ---
+2026-03-06 20:55:30,144 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:55:30,159 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:55:30,160 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (-0.03)
+2026-03-06 20:55:49,807 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 20:55:49,807 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 20:55:49,807 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:56:19,808 - autonomous_agent - INFO - --- Iteration 155 | 2026-03-06 20:56:19 ---
+2026-03-06 20:56:19,808 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:56:19,832 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:56:19,832 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.91)
+2026-03-06 20:56:35,246 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:56:35,247 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:56:35,247 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:57:05,249 - autonomous_agent - INFO - --- Iteration 156 | 2026-03-06 20:57:05 ---
+2026-03-06 20:57:05,264 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:57:05,293 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:57:05,293 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.57)
+2026-03-06 20:57:19,774 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:57:19,774 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:57:19,774 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:57:49,776 - autonomous_agent - INFO - --- Iteration 157 | 2026-03-06 20:57:49 ---
+2026-03-06 20:57:49,776 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:57:49,793 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:57:49,793 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.39)
+2026-03-06 20:58:08,385 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:58:08,399 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:58:08,399 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:58:38,400 - autonomous_agent - INFO - --- Iteration 158 | 2026-03-06 20:58:38 ---
+2026-03-06 20:58:38,404 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:58:38,484 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:58:38,486 - autonomous_agent - DEBUG - Sentiment for EURUSD: NEUTRAL (-0.06)
+2026-03-06 20:58:54,110 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:58:54,111 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:58:54,115 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 20:59:24,116 - autonomous_agent - INFO - --- Iteration 159 | 2026-03-06 20:59:24 ---
+2026-03-06 20:59:24,117 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 20:59:24,138 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 20:59:24,138 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.82)
+2026-03-06 20:59:38,147 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 20:59:38,147 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 20:59:38,147 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 21:00:08,148 - autonomous_agent - INFO - --- Iteration 160 | 2026-03-06 21:00:08 ---
+2026-03-06 21:00:08,149 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 21:00:08,169 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 21:00:08,169 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.29)
+2026-03-06 21:00:23,163 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 21:00:23,163 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 21:00:23,164 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 21:00:53,165 - autonomous_agent - INFO - --- Iteration 161 | 2026-03-06 21:00:53 ---
+2026-03-06 21:00:53,166 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 21:00:53,182 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 21:00:53,182 - autonomous_agent - DEBUG - Sentiment for EURUSD: BEARISH (-0.74)
+2026-03-06 21:01:07,038 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 21:01:07,039 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 21:01:07,039 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 21:01:37,040 - autonomous_agent - INFO - --- Iteration 162 | 2026-03-06 21:01:37 ---
+2026-03-06 21:01:37,041 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 21:01:37,056 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 21:01:37,057 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BULLISH (0.28)
+2026-03-06 21:01:52,712 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 21:01:52,712 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 21:01:52,713 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 21:02:22,713 - autonomous_agent - INFO - --- Iteration 163 | 2026-03-06 21:02:22 ---
+2026-03-06 21:02:22,714 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 21:02:22,734 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 21:02:22,735 - autonomous_agent - DEBUG - Sentiment for EURUSD: BULLISH (0.57)
+2026-03-06 21:02:39,972 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 21:02:39,973 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 21:02:39,973 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 21:03:09,974 - autonomous_agent - INFO - --- Iteration 164 | 2026-03-06 21:03:09 ---
+2026-03-06 21:03:09,975 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 21:03:09,992 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 21:03:09,992 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.3)
+2026-03-06 21:03:25,200 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.8)
+2026-03-06 21:03:25,201 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 80% | Threshold: 65%
+2026-03-06 21:03:25,201 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.
+2026-03-06 21:03:55,202 - autonomous_agent - INFO - --- Iteration 165 | 2026-03-06 21:03:55 ---
+2026-03-06 21:03:55,203 - autonomous_agent - INFO - Goal: Monitor EURUSD and GBPUSD during active London and New York sessions. If a high-quality setup (3:1 R:R minimum) is ident
+2026-03-06 21:03:55,219 - autonomous_agent - INFO - Analyzing market sentiment for EURUSD...
+2026-03-06 21:03:55,220 - autonomous_agent - DEBUG - Sentiment for EURUSD: SLIGHTLY_BEARISH (-0.27)
+2026-03-06 21:04:10,612 - autonomous_agent - INFO - Decision: NO TRADE (Confidence: 0.95)
+2026-03-06 21:04:10,612 - autonomous_agent - INFO - Decision: NO TRADE | Confidence: 95% | Threshold: 65%
+2026-03-06 21:04:10,613 - autonomous_agent - INFO - No execution (decision was NO TRADE). Resetting goal for next cycle.

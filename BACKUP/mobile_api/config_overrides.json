@@ -1,0 +1,21 @@
+{
+  "allowed_sessions": [
+    "LONDON",
+    "NEW_YORK"
+  ],
+  "breakeven_trigger_pips": 15,
+  "enable_news_filter": true,
+  "enable_session_filter": false,
+  "max_concurrent_trades": 2,
+  "max_daily_loss": 20,
+  "max_daily_trades": 5,
+  "max_spread_pips": 2,
+  "min_risk_reward": 3,
+  "risk_per_trade": 0.01,
+  "trailing_distance_pips": 10,
+  "trailing_start_pips": 20,
+  "enable_volatility_breakout": true,
+  "enable_london_breakout": true,
+  "enable_aggressive_trend": true,
+  "enable_mean_reversion": true
+}

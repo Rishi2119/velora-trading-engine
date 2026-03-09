@@ -1,0 +1,15 @@
+INFO:mt5_trade_executor:MT5TradeExecutor ready. Spread limit: 2.0p, Slippage limit: 3.0p
+INFO:agent_manager:Autonomous agent core imported successfully.
+[API] Trading Engine Mobile API (Live MT5 Edition)
+[API] Starting on http://0.0.0.0:5050
+[API] Auto-connecting to MT5: account=10009823282 server=MetaQuotes-Demo
+[DEBUG] mt5_manager id in _autoconnect: 2460491509984
+[API] MT5 connected! Balance: 4921.05
+[DEBUG] mt5_manager.connected set to True
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5050
+ * Running on http://192.168.1.5:5050
+INFO:werkzeug:[33mPress CTRL+C to quit[0m

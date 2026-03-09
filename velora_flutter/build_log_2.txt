@@ -1,0 +1,1074 @@
+﻿[ +555 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[   +1 ms] executing: [C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[ +135 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2026-03-03 16:03:22 -0800
+[  +23 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +4 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +64 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[   +3 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[ +132 ms] executing: [C:\Users\Rishi\Desktop\trading_engins\velora_flutter/] C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\bin\cache\dart-sdk\bin\dart pub --suppress-analytics --directory . get --example
+Resolving dependencies...
+Downloading packages...
+  meta 1.17.0 (1.18.1 available)
+Got dependencies!
+1 package has newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+[+2460 ms] Found plugin shared_preferences at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences-2.5.4\
+[   +7 ms] Found plugin shared_preferences_windows at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_windows-2.4.1\
+[   +9 ms] Found plugin path_provider_windows at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[  +10 ms] Found plugin shared_preferences_web at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_web-2.4.3\
+[   +7 ms] Found plugin shared_preferences_linux at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_linux-2.4.1\
+[   +3 ms] Found plugin path_provider_linux at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +4 ms] Found plugin shared_preferences_foundation at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_foundation-2.5.6\
+[   +4 ms] Found plugin shared_preferences_android at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.21\
+[ +211 ms] Found plugin shared_preferences at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences-2.5.4\
+[   +2 ms] Found plugin shared_preferences_windows at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_windows-2.4.1\
+[   +5 ms] Found plugin path_provider_windows at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[  +10 ms] Found plugin shared_preferences_web at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_web-2.4.3\
+[   +4 ms] Found plugin shared_preferences_linux at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_linux-2.4.1\
+[   +2 ms] Found plugin path_provider_linux at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +4 ms] Found plugin shared_preferences_foundation at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_foundation-2.5.6\
+[   +2 ms] Found plugin shared_preferences_android at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.21\
+[  +33 ms] Skipping generating web_plugin_registrant.dart because it is up-to-date.
+[  +48 ms] Found plugin shared_preferences at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences-2.5.4\
+[   +2 ms] Found plugin shared_preferences_windows at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_windows-2.4.1\
+[   +5 ms] Found plugin path_provider_windows at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[   +8 ms] Found plugin shared_preferences_web at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_web-2.4.3\
+[   +5 ms] Found plugin shared_preferences_linux at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_linux-2.4.1\
+[  +12 ms] Found plugin path_provider_linux at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +3 ms] Found plugin shared_preferences_foundation at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_foundation-2.5.6\
+[   +1 ms] Found plugin shared_preferences_android at C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.21\
+[  +48 ms] Generating C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java
+[   +3 ms] Skipping generating GeneratedPluginRegistrant.java because it is up-to-date.
+[   +4 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[  +32 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +3 ms] Skipping generating GeneratedPluginRegistrant.h because it is up-to-date.
+[   +2 ms] Skipping generating GeneratedPluginRegistrant.m because it is up-to-date.
+[   +2 ms] Skipping generating GeneratedPluginRegistrant.swift because it is up-to-date.
+[ +118 ms] executing: D:\Program Files\Android\Android Studio\jbr\bin\java -version
+[ +974 ms] Exit code 0 from: D:\Program Files\Android\Android Studio\jbr\bin\java -version
+[        ] openjdk version "21.0.9" 2025-10-21
+           OpenJDK Runtime Environment (build 21.0.9+-14649483-b1163.86)
+           OpenJDK 64-Bit Server VM (build 21.0.9+-14649483-b1163.86, mixed mode)
+[  +12 ms] Top-level Gradle build file not found, skipping migration of task "clean".
+[   +2 ms] executing: D:\Program Files\Android\Android Studio\jbr\bin\java --version
+[ +306 ms] Exit code 0 from: D:\Program Files\Android\Android Studio\jbr\bin\java --version
+[        ] openjdk 21.0.9 2025-10-21
+           OpenJDK Runtime Environment (build 21.0.9+-14649483-b1163.86)
+           OpenJDK 64-Bit Server VM (build 21.0.9+-14649483-b1163.86, mixed mode)
+[   +2 ms] Version of Java is different than impacted version, no migration attempted.
+[  +19 ms] CMake project not found, skipping support Android 15 16k page size migration.
+[   +5 ms] Using gradle from C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android\gradlew.bat.
+[  +15 ms] LocalFile: 'C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android\build.gradle.kts' doesn't provide an AGP version. Checking settings.
+[   +2 ms] LocalFile: 'C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android\settings.gradle.kts' provides AGP version: 8.11.1
+[   +5 ms] Running Gradle task 'assembleDebug'...
+[   +1 ms] executing: [C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android/] C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android\gradlew.bat --full-stacktrace --info -Pverbose=true -Ptarget-platform=android-arm,android-arm64,android-x64 -Ptarget=lib\main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9WRVJTSU9OPTMuNDEuNA==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049ZmYzN2JlZjYwMw==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049ZTRiOGRjYTNmMQ==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMS4x -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug
+[+2266 ms] Initialized native services in: C:\Users\Rishi\.gradle\native
+[        ] Initialized jansi services in: C:\Users\Rishi\.gradle\native
+[ +630 ms] The client will now receive all logging from the daemon (pid: 8444). The daemon log file: C:\Users\Rishi\.gradle\daemon\8.14\daemon-8444.out.log
+[        ] Starting 2nd build in daemon [uptime: 3 mins 39.99 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 8 GiB, non-heap usage: 3% of 4 GiB]
+[        ] Using 12 worker leases.
+[  +98 ms] Invalidating in-memory cache of C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android\.gradle\8.14\fileHashes\fileHashes.bin
+[   +1 ms] Invalidating in-memory cache of C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android\.gradle\buildOutputCleanup\outputFiles.bin
+[        ] Invalidating in-memory cache of C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android\.gradle\8.14\fileHashes\resourceHashesCache.bin
+[        ] Now considering [C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android, C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter_tools\gradle] as hierarchies to watch
+[        ] Watching the file system is configured to be enabled if available
+[        ] File system watching is active
+[  +97 ms] Starting Build
+[        ] Now considering [C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter_tools\gradle, C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android] as hierarchies to watch
+[ +302 ms] > Configure project :gradle
+[        ] Evaluating project ':gradle' using build file 'C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter_tools\gradle\build.gradle.kts'.
+[        ] Resolved plugin [id: 'org.gradle.java-gradle-plugin']
+[        ] Resolved plugin [id: 'org.gradle.groovy']
+[        ] Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '5.2.0']
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '1.9.20']
+[        ] Using Kotlin Gradle Plugin gradle85 variant
+[        ] kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+[        ] kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+[        ] file or directory 'C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter_tools\gradle\src\main\java', not found
+[        ] Resolved plugin [id: 'dev.flutter.flutter-plugin-loader', version: '1.0.0']
+[        ] Resolved plugin [id: 'com.android.application', version: '8.11.1', apply: false]
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.20', apply: false]
+[  +94 ms] Resolve mutations for :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] > Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':gradle:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :gradle:compileKotlin (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] :gradle:compileKotlin (Thread[#243,Execution worker Thread 5,5,main]) started.
+[  +96 ms] > Task :gradle:compileKotlin UP-TO-DATE
+[        ] Caching disabled for task ':gradle:compileKotlin' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':gradle:compileKotlin' as it is up-to-date.
+[        ] Resolve mutations for :gradle:compileJava (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] :gradle:compileJava (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] > Task :gradle:compileJava NO-SOURCE
+[        ] Skipping task ':gradle:compileJava' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:compileGroovy (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] :gradle:compileGroovy (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] > Task :gradle:compileGroovy NO-SOURCE
+[        ] Skipping task ':gradle:compileGroovy' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:pluginDescriptors (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] :gradle:pluginDescriptors (Thread[#238,included builds,5,main]) started.
+[        ] > Task :gradle:pluginDescriptors UP-TO-DATE
+[        ] Caching disabled for task ':gradle:pluginDescriptors' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:pluginDescriptors' as it is up-to-date.
+[        ] Resolve mutations for :gradle:processResources (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] :gradle:processResources (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] > Task :gradle:processResources UP-TO-DATE
+[        ] Caching disabled for task ':gradle:processResources' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:processResources' as it is up-to-date.
+[        ] Resolve mutations for :gradle:classes (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] :gradle:classes (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] > Task :gradle:classes UP-TO-DATE
+[        ] Skipping task ':gradle:classes' as it has no actions.
+[        ] Resolve mutations for :gradle:jar (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] :gradle:jar (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] > Task :gradle:jar UP-TO-DATE
+[        ] Caching disabled for task ':gradle:jar' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:jar' as it is up-to-date.
+[ +392 ms] Settings evaluated using settings file 'C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android\settings.gradle.kts'.
+[        ] Projects loaded. Root project using build file 'C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android\build.gradle.kts'.
+[        ] Included projects: [root project 'android', project ':app', project ':shared_preferences_android']
+[ +498 ms] > Configure project :app
+[        ] Evaluating project ':app' using build file 'C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android\app\build.gradle.kts'.
+[        ] Resolved plugin [id: 'com.android.application']
+[        ] Resolved plugin [id: 'kotlin-android']
+[        ] Resolved plugin [id: 'dev.flutter.flutter-gradle-plugin']
+[        ] Using default execution profile
+[        ] Build 051b20af-57e6-44d5-9d02-48e3930c6502 is started
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\Rishi\AppData\Local\Android\sdk
+[        ] > Configure project :
+[        ] Evaluating root project 'android' using build file 'C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android\build.gradle.kts'.
+[ +374 ms] > Configure project :shared_preferences_android
+[   +1 ms] Evaluating project ':shared_preferences_android' using build file 'C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.21\android\build.gradle'.
+[        ] Using default execution profile
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] All projects evaluated.
+[        ] Task name matched 'assembleDebug'
+[        ] Selected primary task 'assembleDebug' from project :
+[        ] Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugKotlin
+[  +98 ms] Tasks to be executed: [task ':app:DebugMinSdkCheck', task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:compileFlutterBuildDebug', task ':app:packJniLibsflutterBuildDebug', task ':shared_preferences_android:preBuild', task ':shared_preferences_android:preDebugBuild', task ':shared_preferences_android:writeDebugAarMetadata', task ':app:checkDebugAarMetadata', task ':app:cleanMergeDebugAssets', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':shared_preferences_android:mergeDebugShaders', task ':shared_preferences_android:compileDebugShaders', task ':shared_preferences_android:generateDebugAssets', task ':shared_preferences_android:mergeDebugAssets', task ':app:mergeDebugAssets', task ':app:copyFlutterAssetsDebug', task ':app:generateDebugResValues', task ':shared_preferences_android:generateDebugResValues', task ':shared_preferences_android:generateDebugResources', task ':shared_preferences_android:packageDebugResources', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':shared_preferences_android:extractDeepLinksDebug', task ':shared_preferences_android:processDebugManifest', task ':app:processDebugMainManifest', task ':app:outputDebugAppLinkSettings', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':shared_preferences_android:compileDebugLibraryResources', task ':shared_preferences_android:parseDebugLocalResources', task ':shared_preferences_android:generateDebugRFile', task ':app:processDebugResources', task ':shared_preferences_android:checkKotlinGradlePluginConfigurationErrors', task ':shared_preferences_android:compileDebugKotlin', task ':shared_preferences_android:javaPreCompileDebug', task ':shared_preferences_android:compileDebugJavaWithJavac', task ':shared_preferences_android:bundleLibCompileToJarDebug', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:compressDebugAssets', task ':shared_preferences_android:bundleLibRuntimeToJarDebug', task ':app:desugarDebugFileDependencies', task ':app:dexBuilderDebug', task ':app:mergeDebugGlobalSynthetics', task ':app:processDebugJavaRes', task ':shared_preferences_android:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:mergeExtDexDebug', task ':shared_preferences_android:bundleLibRuntimeToDirDebug', task ':app:mergeLibDexDebug', task ':app:mergeProjectDexDebug', task ':app:configureCMakeDebug[arm64-v8a]', task ':app:buildCMakeDebug[arm64-v8a]', task ':app:configureCMakeDebug[armeabi-v7a]', task ':app:buildCMakeDebug[armeabi-v7a]', task ':app:configureCMakeDebug[x86_64]', task ':app:buildCMakeDebug[x86_64]', task ':app:mergeDebugJniLibFolders', task ':shared_preferences_android:mergeDebugJniLibFolders', task ':shared_preferences_android:mergeDebugNativeLibs', task ':shared_preferences_android:copyDebugJniLibsProjectOnly', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug', task ':shared_preferences_android:stripDebugDebugSymbols', task ':shared_preferences_android:copyDebugJniLibsProjectAndLocalJars', task ':shared_preferences_android:extractDebugAnnotations', task ':shared_preferences_android:extractDeepLinksForAarDebug', task ':shared_preferences_android:mergeDebugGeneratedProguardFiles', task ':shared_preferences_android:mergeDebugConsumerProguardFiles', task ':shared_preferences_android:prepareDebugArtProfile', task ':shared_preferences_android:prepareLintJarForPublish', task ':shared_preferences_android:mergeDebugJavaResource', task ':shared_preferences_android:syncDebugLibJars', task ':shared_preferences_android:bundleDebugAar', task ':shared_preferences_android:assembleDebug']
+[        ] Tasks that were excluded: []
+[  +96 ms] work action Parameters of IdentityTransform (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] work action Parameters of DexingNoClasspathTransform (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] work action Parameters of DexingOutputSplitTransform (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] work action Parameters of ClassesDirToClassesTransform (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] work action Parameters of DexingOutputSplitTransform (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :app:DebugMinSdkCheck (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] :app:DebugMinSdkCheck (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :app:DebugMinSdkCheck
+[        ] Caching disabled for task ':app:DebugMinSdkCheck' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:DebugMinSdkCheck' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Resolve mutations for :app:preBuild (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:preBuild (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :app:preBuild UP-TO-DATE
+[        ] Skipping task ':app:preBuild' as it has no actions.
+[        ] Resolve mutations for :app:preDebugBuild (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:preDebugBuild (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :app:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':app:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:mergeDebugNativeDebugMetadata (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+[        ] Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+[        ] Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:checkKotlinGradlePluginConfigurationErrors (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':app:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :app:compileFlutterBuildDebug (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:compileFlutterBuildDebug (Thread[#239,Execution worker,5,main]) started.
+[+1994 ms] > Task :app:compileFlutterBuildDebug
+[        ] Caching disabled for task ':app:compileFlutterBuildDebug' because:
+[        ]   Build cache is disabled
+[        ]   Caching has not been enabled for the task
+[        ] Task ':app:compileFlutterBuildDebug' is not up-to-date because:
+[        ]   Value of input property 'verbose' has changed for task ':app:compileFlutterBuildDebug'
+[        ] Starting process 'command 'C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\bin\flutter.bat''. Working directory: C:\Users\Rishi\Desktop\trading_engins\velora_flutter Command: C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\bin\flutter.bat --verbose assemble --no-version-check --depfile C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug/flutter_build.d --output C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug -dTargetFile=lib\main.dart -dTargetPlatform=android -dBuildMode=debug -dTrackWidgetCreation=true --DartDefines=RkxVVFRFUl9WRVJTSU9OPTMuNDEuNA==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049ZmYzN2JlZjYwMw==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049ZTRiOGRjYTNmMQ==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMS4x -dFlavor= -dAndroidArchs=android-arm android-arm64 android-x64 -dMinSdkVersion=24 debug_android_application
+[        ] Successfully started process 'command 'C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\bin\flutter.bat''
+[        ] [ +221 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [   +1 ms] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] [  +18 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [   +4 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +90 ms] [ +102 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[   +1 ms] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [   +3 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[  +93 ms] [  +44 ms] Initializing file store
+[        ] [  +26 ms] Done initializing file store
+[  +99 ms] [  +83 ms] Skipping target: dart_build
+[        ] [   +3 ms] Skipping target: gen_dart_plugin_registrant
+[        ] [   +2 ms] Skipping target: install_code_assets
+[        ] [        ] Skipping target: gen_localizations
+[+1097 ms] [+1101 ms] Skipping target: kernel_snapshot_program
+[        ] [   +8 ms] invalidated build due to missing files: C:\Users\Rishi\Desktop\trading_engins\velora_flutter\DOES_NOT_EXIST_RERUN_FOR_WILDCARD847612808
+[ +100 ms] [  +77 ms] debug_android_application: Starting due to {InvalidatedReasonKind.outputSetAddition: The following outputs were added to the output set: C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug\flutter_assets\vm_snapshot_data,C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug\flutter_assets\isolate_snapshot_data,C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug\flutter_assets\kernel_blob.bin,C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug\flutter_assets\.env,C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug\flutter_assets\packages\lucide_icons\assets\lucide.ttf,C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug\flutter_assets\packages\cupertino_icons\assets\CupertinoIcons.ttf,C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug\flutter_assets\fonts\MaterialIcons-Regular.otf,C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug\flutter_assets\shaders\ink_sparkle.frag,C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug\flutter_assets\shaders\stretch_effect.frag,C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug\flutter_assets\AssetManifest.bin,C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug\flutter_assets\FontManifest.json,C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug\flutter_assets\NOTICES.Z,C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug\flutter_assets\NativeAssetsManifest.json, InvalidatedReasonKind.inputMissing: The following inputs were missing: C:\Users\Rishi\Desktop\trading_engins\velora_flutter\DOES_NOT_EXIST_RERUN_FOR_WILDCARD847612808}
+[ +302 ms] [ +318 ms] Manifest contained wildcard assets. Inserting missing file into build graph to force rerun. for more information see #56466.
+[        ] [  +13 ms] shaderc command: [C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\bin\cache\artifacts\engine\windows-x64\impellerc.exe, --sksl, --runtime-stage-gles, --runtime-stage-gles3, --runtime-stage-vulkan, --iplr, --sl=C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug\flutter_assets\shaders/ink_sparkle.frag, --spirv=C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug\flutter_assets\shaders/ink_sparkle.frag.spirv, --input=C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter\lib\src\material\shaders\ink_sparkle.frag, --input-type=frag, --include=C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter\lib\src\material\shaders, --include=C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\bin\cache\artifacts\engine\windows-x64\shader_lib]
+[        ] [   +1 ms] shaderc command: [C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\bin\cache\artifacts\engine\windows-x64\impellerc.exe, --sksl, --runtime-stage-gles, --runtime-stage-gles3, --runtime-stage-vulkan, --iplr, --sl=C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug\flutter_assets\shaders/stretch_effect.frag, --spirv=C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\flutter\debug\flutter_assets\shaders/stretch_effect.frag.spirv, --input=C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter\lib\src\material\shaders\stretch_effect.frag, --input-type=frag, --include=C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter\lib\src\material\shaders, --include=C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\bin\cache\artifacts\engine\windows-x64\shader_lib]
+[+1393 ms] [+1405 ms] debug_android_application: Complete
+[ +501 ms] [ +476 ms] Persisting file store
+[        ] [  +11 ms] Done persisting file store
+[        ] [  +23 ms] build succeeded.
+[        ] [  +19 ms] "flutter assemble" took 3,740ms.
+[  +99 ms] [  +78 ms] Running 1 shutdown hook
+[        ] [   +1 ms] Shutdown hooks complete
+[ +298 ms] [ +259 ms] exiting with code 0
+[        ] Resolve mutations for :app:packJniLibsflutterBuildDebug (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:packJniLibsflutterBuildDebug (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :app:packJniLibsflutterBuildDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:packJniLibsflutterBuildDebug' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':app:packJniLibsflutterBuildDebug' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:preBuild (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:preBuild (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :shared_preferences_android:preBuild UP-TO-DATE
+[        ] Skipping task ':shared_preferences_android:preBuild' as it has no actions.
+[        ] Resolve mutations for :shared_preferences_android:preDebugBuild (Thread[#239,Execution worker,5,main]) started.
+[  +97 ms] :shared_preferences_android:preDebugBuild (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :shared_preferences_android:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':shared_preferences_android:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :shared_preferences_android:writeDebugAarMetadata (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:writeDebugAarMetadata (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :shared_preferences_android:writeDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:writeDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':shared_preferences_android:writeDebugAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :shared_preferences_android) (Thread[#239,Execution worker,5,main]) started.
+[        ] Resolve mutations for :app:checkDebugAarMetadata (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:checkDebugAarMetadata (Thread[#239,Execution worker,5,main]) started.
+[+1389 ms] > Task :app:checkDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':app:checkDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+[        ] Resolve mutations for :app:cleanMergeDebugAssets (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:cleanMergeDebugAssets (Thread[#239,Execution worker,5,main]) started.
+[ +401 ms] > Task :app:cleanMergeDebugAssets
+[        ] Caching disabled for task ':app:cleanMergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:cleanMergeDebugAssets' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Resolve mutations for :app:mergeDebugShaders (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:mergeDebugShaders (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :app:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':app:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :app:compileDebugShaders (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:compileDebugShaders (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :app:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':app:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :app:generateDebugAssets (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:generateDebugAssets (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :app:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':app:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :shared_preferences_android:mergeDebugShaders (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:mergeDebugShaders (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :shared_preferences_android:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':shared_preferences_android:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:compileDebugShaders (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:compileDebugShaders (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :shared_preferences_android:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':shared_preferences_android:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :shared_preferences_android:generateDebugAssets (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:generateDebugAssets (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :shared_preferences_android:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':shared_preferences_android:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :shared_preferences_android:mergeDebugAssets (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] :shared_preferences_android:mergeDebugAssets (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] > Task :shared_preferences_android:mergeDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':shared_preferences_android:mergeDebugAssets' as it is up-to-date.
+[        ] work action resolve mergeDebugAssets (project :shared_preferences_android) (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] Resolve mutations for :app:mergeDebugAssets (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] :app:mergeDebugAssets (Thread[#242,Execution worker Thread 4,5,main]) started.
+[ +888 ms] > Task :app:mergeDebugAssets
+[        ] Caching disabled for task ':app:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Task ':app:mergeDebugAssets' is not up-to-date because:
+[        ]   Output property 'outputDir' file C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\assets\debug\mergeDebugAssets has been removed.
+[        ] The input changes require a full rebuild for incremental task ':app:mergeDebugAssets'.
+[        ] Resolve mutations for :app:copyFlutterAssetsDebug (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] :app:copyFlutterAssetsDebug (Thread[#242,Execution worker Thread 4,5,main]) started.
+[ +399 ms] > Task :app:copyFlutterAssetsDebug
+[        ] Caching disabled for task ':app:copyFlutterAssetsDebug' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Task ':app:copyFlutterAssetsDebug' is not up-to-date because:
+[        ]   Output property 'destinationDir' file C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\assets\debug\mergeDebugAssets\flutter_assets has been removed.
+[        ]   Output property 'destinationDir' file C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\assets\debug\mergeDebugAssets\flutter_assets\.env has been removed.
+[        ]   Output property 'destinationDir' file C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\assets\debug\mergeDebugAssets\flutter_assets\AssetManifest.bin has been removed.
+[        ]   and more...
+[        ] Resolve mutations for :app:generateDebugResValues (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] :app:generateDebugResValues (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] > Task :app:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':app:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:generateDebugResValues (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] :shared_preferences_android:generateDebugResValues (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] > Task :shared_preferences_android:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':shared_preferences_android:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:generateDebugResources (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] :shared_preferences_android:generateDebugResources (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] > Task :shared_preferences_android:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':shared_preferences_android:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:packageDebugResources (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] :shared_preferences_android:packageDebugResources (Thread[#242,Execution worker Thread 4,5,main]) started.
+[  +92 ms] > Task :shared_preferences_android:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':shared_preferences_android:packageDebugResources' as it is up-to-date.
+[        ] work action resolve packageDebugResources (project :shared_preferences_android) (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] :app:mapDebugSourceSetPaths (Thread[#246,Execution worker Thread 8,5,main]) started.
+[ +102 ms] > Task :app:mapDebugSourceSetPaths UP-TO-DATE
+[        ] Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+[        ] Resolve mutations for :app:generateDebugResources (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] :app:generateDebugResources (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] > Task :app:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :app:mergeDebugResources (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] :app:mergeDebugResources (Thread[#246,Execution worker Thread 8,5,main]) started.
+[ +698 ms] > Task :app:mergeDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :app:packageDebugResources (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] :app:packageDebugResources (Thread[#246,Execution worker Thread 8,5,main]) started.
+[ +101 ms] > Task :app:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:packageDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :app:parseDebugLocalResources (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] :app:parseDebugLocalResources (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] > Task :app:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':app:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] :app:createDebugCompatibleScreenManifests (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] > Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+[        ] Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+[        ] Resolve mutations for :app:extractDeepLinksDebug (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] :app:extractDeepLinksDebug (Thread[#244,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:extractDeepLinksDebug (Thread[#244,Execution worker Thread 6,5,main]) started.
+[        ] :shared_preferences_android:extractDeepLinksDebug (Thread[#244,Execution worker Thread 6,5,main]) started.
+[        ] > Task :shared_preferences_android:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':shared_preferences_android:extractDeepLinksDebug' as it is up-to-date.
+[        ] work action resolve navigation.json (project :shared_preferences_android) (Thread[#244,Execution worker Thread 6,5,main]) started.
+[        ] Resolve mutations for :shared_preferences_android:processDebugManifest (Thread[#244,Execution worker Thread 6,5,main]) started.
+[        ] :shared_preferences_android:processDebugManifest (Thread[#244,Execution worker Thread 6,5,main]) started.
+[  +89 ms] > Task :shared_preferences_android:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':shared_preferences_android:processDebugManifest' as it is up-to-date.
+[        ] work action resolve AndroidManifest.xml (project :shared_preferences_android) (Thread[#244,Execution worker Thread 6,5,main]) started.
+[        ] Resolve mutations for :app:processDebugMainManifest (Thread[#244,Execution worker Thread 6,5,main]) started.
+[        ] :app:processDebugMainManifest (Thread[#244,Execution worker Thread 6,5,main]) started.
+[ +298 ms] > Task :app:processDebugMainManifest UP-TO-DATE
+[        ] Caching disabled for task ':app:processDebugMainManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+[        ] Resolve mutations for :app:outputDebugAppLinkSettings (Thread[#244,Execution worker Thread 6,5,main]) started.
+[        ] :app:outputDebugAppLinkSettings (Thread[#244,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:outputDebugAppLinkSettings UP-TO-DATE
+[        ] Caching disabled for task ':app:outputDebugAppLinkSettings' because:
+[        ]   Build cache is disabled
+[        ]   Caching has not been enabled for the task
+[        ] Skipping task ':app:outputDebugAppLinkSettings' as it is up-to-date.
+[        ] Resolve mutations for :app:processDebugManifest (Thread[#244,Execution worker Thread 6,5,main]) started.
+[        ] :app:processDebugManifest (Thread[#244,Execution worker Thread 6,5,main]) started.
+[  +94 ms] > Task :app:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':app:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugManifest' as it is up-to-date.
+[        ] Resolve mutations for :app:processDebugManifestForPackage (Thread[#244,Execution worker Thread 6,5,main]) started.
+[        ] :app:processDebugManifestForPackage (Thread[#244,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:processDebugManifestForPackage UP-TO-DATE
+[        ] Custom actions are attached to task ':app:processDebugManifestForPackage'.
+[        ] Caching disabled for task ':app:processDebugManifestForPackage' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:compileDebugLibraryResources (Thread[#244,Execution worker Thread 6,5,main]) started.
+[   +1 ms] :shared_preferences_android:compileDebugLibraryResources (Thread[#244,Execution worker Thread 6,5,main]) started.
+[        ] > Task :shared_preferences_android:compileDebugLibraryResources UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:compileDebugLibraryResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':shared_preferences_android:compileDebugLibraryResources' as it is up-to-date.
+[        ] work action resolve out (project :shared_preferences_android) (Thread[#244,Execution worker Thread 6,5,main]) started.
+[        ] Resolve mutations for :shared_preferences_android:parseDebugLocalResources (Thread[#244,Execution worker Thread 6,5,main]) started.
+[        ] :shared_preferences_android:parseDebugLocalResources (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] > Task :shared_preferences_android:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':shared_preferences_android:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:generateDebugRFile (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] :shared_preferences_android:generateDebugRFile (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] > Task :shared_preferences_android:generateDebugRFile UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:generateDebugRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':shared_preferences_android:generateDebugRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :shared_preferences_android) (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] Resolve mutations for :app:processDebugResources (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] :app:processDebugResources (Thread[#246,Execution worker Thread 8,5,main]) started.
+[ +392 ms] > Task :app:processDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:processDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:checkKotlinGradlePluginConfigurationErrors (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] :shared_preferences_android:checkKotlinGradlePluginConfigurationErrors (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] > Task :shared_preferences_android:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':shared_preferences_android:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :shared_preferences_android:compileDebugKotlin (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] :shared_preferences_android:compileDebugKotlin (Thread[#246,Execution worker Thread 8,5,main]) started.
+[ +499 ms] > Task :shared_preferences_android:compileDebugKotlin UP-TO-DATE
+[        ] Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :shared_preferences_android:compileDebugAndroidTestKotlin
+[        ] Caching disabled for task ':shared_preferences_android:compileDebugKotlin' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':shared_preferences_android:compileDebugKotlin' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:javaPreCompileDebug (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] :shared_preferences_android:javaPreCompileDebug (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] > Task :shared_preferences_android:javaPreCompileDebug UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:javaPreCompileDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':shared_preferences_android:javaPreCompileDebug' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:compileDebugJavaWithJavac (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] :shared_preferences_android:compileDebugJavaWithJavac (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] > Task :shared_preferences_android:compileDebugJavaWithJavac UP-TO-DATE
+[        ] Custom actions are attached to task ':shared_preferences_android:compileDebugJavaWithJavac'.
+[        ] Caching disabled for task ':shared_preferences_android:compileDebugJavaWithJavac' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':shared_preferences_android:compileDebugJavaWithJavac' as it is up-to-date.
+[        ] No compile result for :shared_preferences_android:compileDebugJavaWithJavac
+[        ] No compile result for :shared_preferences_android:compileDebugJavaWithJavac
+[        ] Resolve mutations for :shared_preferences_android:bundleLibCompileToJarDebug (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] :shared_preferences_android:bundleLibCompileToJarDebug (Thread[#246,Execution worker Thread 8,5,main]) started.
+[  +90 ms] > Task :shared_preferences_android:bundleLibCompileToJarDebug UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:bundleLibCompileToJarDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':shared_preferences_android:bundleLibCompileToJarDebug' as it is up-to-date.
+[        ] work action resolve classes.jar (project :shared_preferences_android) (Thread[#246,Execution worker Thread 8,5,main]) started.
+[        ] Resolve mutations for :app:compileDebugKotlin (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] :app:compileDebugKotlin (Thread[#243,Execution worker Thread 5,5,main]) started.
+[ +205 ms] > Task :app:compileDebugKotlin UP-TO-DATE
+[        ] Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugAndroidTestKotlin
+[        ] Caching disabled for task ':app:compileDebugKotlin' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:compileDebugKotlin' as it is up-to-date.
+[        ] Resolve mutations for :app:javaPreCompileDebug (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] :app:javaPreCompileDebug (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:javaPreCompileDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:javaPreCompileDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:javaPreCompileDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:compileDebugJavaWithJavac (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] :app:compileDebugJavaWithJavac (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:compileDebugJavaWithJavac UP-TO-DATE
+[        ] Custom actions are attached to task ':app:compileDebugJavaWithJavac'.
+[        ] Caching disabled for task ':app:compileDebugJavaWithJavac' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:compileDebugJavaWithJavac' as it is up-to-date.
+[        ] No compile result for :app:compileDebugJavaWithJavac
+[        ] No compile result for :app:compileDebugJavaWithJavac
+[        ] Resolve mutations for :app:compressDebugAssets (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] :app:compressDebugAssets (Thread[#243,Execution worker Thread 5,5,main]) started.
+[  +91 ms] > Task :app:compressDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':app:compressDebugAssets' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:compressDebugAssets' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:bundleLibRuntimeToJarDebug (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] :shared_preferences_android:bundleLibRuntimeToJarDebug (Thread[#243,Execution worker Thread 5,5,main]) started.
+[   +1 ms] > Task :shared_preferences_android:bundleLibRuntimeToJarDebug UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:bundleLibRuntimeToJarDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':shared_preferences_android:bundleLibRuntimeToJarDebug' as it is up-to-date.
+[        ] work action resolve classes.jar (project :shared_preferences_android) (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] IdentityTransform (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :app:desugarDebugFileDependencies (Thread[#245,Execution worker Thread 7,5,main]) started.
+[        ] :app:desugarDebugFileDependencies (Thread[#245,Execution worker Thread 7,5,main]) started.
+[        ] > Task :app:desugarDebugFileDependencies UP-TO-DATE
+[        ] Caching disabled for task ':app:desugarDebugFileDependencies' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:desugarDebugFileDependencies' as it is up-to-date.
+[        ] Resolve mutations for :app:dexBuilderDebug (Thread[#245,Execution worker Thread 7,5,main]) started.
+[        ] :app:dexBuilderDebug (Thread[#245,Execution worker Thread 7,5,main]) started.
+[        ] DexingNoClasspathTransform (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] > Transform classes.jar (project :shared_preferences_android) with DexingNoClasspathTransform
+[        ] Caching disabled for DexingNoClasspathTransform: C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\shared_preferences_android\intermediates\runtime_library_classes_jar\debug\bundleLibRuntimeToJarDebug\classes.jar because:
+[        ]   Build cache is disabled
+[        ] Skipping DexingNoClasspathTransform: C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\shared_preferences_android\intermediates\runtime_library_classes_jar\debug\bundleLibRuntimeToJarDebug\classes.jar as it is up-to-date.
+[        ] DexingOutputSplitTransform (Thread[#243,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:dexBuilderDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:dexBuilderDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:dexBuilderDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:mergeDebugGlobalSynthetics (Thread[#245,Execution worker Thread 7,5,main]) started.
+[        ] :app:mergeDebugGlobalSynthetics (Thread[#240,Execution worker Thread 2,5,main]) started.
+[ +690 ms] > Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugGlobalSynthetics' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeDebugGlobalSynthetics' as it is up-to-date.
+[        ] Resolve mutations for :app:processDebugJavaRes (Thread[#240,Execution worker Thread 2,5,main]) started.
+[        ] :app:processDebugJavaRes (Thread[#240,Execution worker Thread 2,5,main]) started.
+[        ] > Task :app:processDebugJavaRes UP-TO-DATE
+[        ] file or directory 'C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android\app\src\main\resources', not found
+[        ] file or directory 'C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android\app\src\debug\resources', not found
+[        ] file or directory 'C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android\app\src\main\resources', not found
+[        ] file or directory 'C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android\app\src\debug\resources', not found
+[        ] Caching disabled for task ':app:processDebugJavaRes' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:processDebugJavaRes' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:processDebugJavaRes (Thread[#240,Execution worker Thread 2,5,main]) started.
+[        ] :shared_preferences_android:processDebugJavaRes (Thread[#240,Execution worker Thread 2,5,main]) started.
+[        ] > Task :shared_preferences_android:processDebugJavaRes UP-TO-DATE
+[        ] file or directory 'C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.21\android\src\main\resources', not found
+[        ] file or directory 'C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.21\android\src\debug\resources', not found
+[        ] file or directory 'C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.21\android\src\main\resources', not found
+[        ] file or directory 'C:\Users\Rishi\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.21\android\src\debug\resources', not found
+[        ] Caching disabled for task ':shared_preferences_android:processDebugJavaRes' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':shared_preferences_android:processDebugJavaRes' as it is up-to-date.
+[        ] work action resolve out (project :shared_preferences_android) (Thread[#240,Execution worker Thread 2,5,main]) started.
+[        ] Resolve mutations for :app:mergeDebugJavaResource (Thread[#240,Execution worker Thread 2,5,main]) started.
+[        ] :app:mergeDebugJavaResource (Thread[#240,Execution worker Thread 2,5,main]) started.
+[  +94 ms] > Task :app:mergeDebugJavaResource UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugJavaResource' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:mergeDebugJavaResource' as it is up-to-date.
+[        ] Resolve mutations for :app:checkDebugDuplicateClasses (Thread[#240,Execution worker Thread 2,5,main]) started.
+[        ] :app:checkDebugDuplicateClasses (Thread[#240,Execution worker Thread 2,5,main]) started.
+[ +189 ms] > Task :app:checkDebugDuplicateClasses UP-TO-DATE
+[        ] Caching disabled for task ':app:checkDebugDuplicateClasses' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:checkDebugDuplicateClasses' as it is up-to-date.
+[        ] Resolve mutations for :app:mergeExtDexDebug (Thread[#240,Execution worker Thread 2,5,main]) started.
+[        ] :app:mergeExtDexDebug (Thread[#240,Execution worker Thread 2,5,main]) started.
+[ +110 ms] > Task :app:mergeExtDexDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeExtDexDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeExtDexDebug' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:bundleLibRuntimeToDirDebug (Thread[#240,Execution worker Thread 2,5,main]) started.
+[        ] :shared_preferences_android:bundleLibRuntimeToDirDebug (Thread[#240,Execution worker Thread 2,5,main]) started.
+[        ] > Task :shared_preferences_android:bundleLibRuntimeToDirDebug UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:bundleLibRuntimeToDirDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':shared_preferences_android:bundleLibRuntimeToDirDebug' as it is up-to-date.
+[        ] work action resolve bundleLibRuntimeToDirDebug (project :shared_preferences_android) (Thread[#240,Execution worker Thread 2,5,main]) started.
+[        ] ClassesDirToClassesTransform (Thread[#240,Execution worker Thread 2,5,main]) started.
+[        ] Resolve mutations for :app:mergeProjectDexDebug (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] :app:mergeProjectDexDebug (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] DexingNoClasspathTransform (Thread[#240,Execution worker Thread 2,5,main]) started.
+[        ] > Task :app:mergeProjectDexDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeProjectDexDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeProjectDexDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:configureCMakeDebug[arm64-v8a] (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] :app:configureCMakeDebug[arm64-v8a] (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] > Transform bundleLibRuntimeToDirDebug (project :shared_preferences_android) with DexingNoClasspathTransform
+[        ] Caching disabled for DexingNoClasspathTransform: C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\shared_preferences_android\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug because:
+[        ]   Build cache is disabled
+[        ] Skipping DexingNoClasspathTransform: C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\shared_preferences_android\intermediates\runtime_library_classes_dir\debug\bundleLibRuntimeToDirDebug as it is up-to-date.
+[        ] DexingOutputSplitTransform (Thread[#240,Execution worker Thread 2,5,main]) started.
+[ +491 ms] > Task :app:configureCMakeDebug[arm64-v8a]
+[        ] Caching disabled for task ':app:configureCMakeDebug[arm64-v8a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:configureCMakeDebug[arm64-v8a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: SDK Manager found the following installed packages: build-tools;35.0.0 build-tools;36.1.0 cmake;3.22.1 emulator extras;google;Android_Emulator_Hypervisor_Driver ndk;28.2.13676358 platform-tools platforms;android-36 platforms;android-36.1 sources;android-36.1 system-images;android-36.1;google_apis_playstore;x86_64
+[        ] C/C++: C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|arm64-v8a : Start JSON generation. Platform version: 24 min SDK version: arm64-v8a
+[        ] C/C++: C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|arm64-v8a : JSON 'C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\.cxx\debug\5n3q5w61\arm64-v8a\android_gradle_build.json' was up-to-date
+[        ] C/C++: C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|arm64-v8a : JSON generation completed without problems
+[        ] C/C++: C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|arm64-v8a : Writing build model to C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\cxx\debug\5n3q5w61\logs\arm64-v8a\build_model.json
+[        ] Resolve mutations for :app:mergeLibDexDebug (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] :app:mergeLibDexDebug (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] > Task :app:mergeLibDexDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeLibDexDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeLibDexDebug' as it is up-to-date.
+[  +96 ms] Resolve mutations for :app:buildCMakeDebug[arm64-v8a] (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] :app:buildCMakeDebug[arm64-v8a] (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] > Task :app:buildCMakeDebug[arm64-v8a]
+[        ] Caching disabled for task ':app:buildCMakeDebug[arm64-v8a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:buildCMakeDebug[arm64-v8a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: starting build
+[        ] C/C++: reading expected JSONs
+[        ] C/C++: done reading expected JSONs
+[        ] C/C++: executing build commands for targets that produce .so files or executables
+[        ] C/C++: evaluate miniconfig
+[        ] C/C++: no libraries
+[        ] Resolve mutations for :app:configureCMakeDebug[armeabi-v7a] (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] :app:configureCMakeDebug[armeabi-v7a] (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] > Task :app:configureCMakeDebug[armeabi-v7a]
+[        ] Caching disabled for task ':app:configureCMakeDebug[armeabi-v7a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:configureCMakeDebug[armeabi-v7a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|armeabi-v7a : Start JSON generation. Platform version: 24 min SDK version: armeabi-v7a
+[        ] C/C++: C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|armeabi-v7a : JSON 'C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\.cxx\debug\5n3q5w61\armeabi-v7a\android_gradle_build.json' was up-to-date
+[        ] C/C++: C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|armeabi-v7a : JSON generation completed without problems
+[        ] C/C++: C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|armeabi-v7a : Writing build model to C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\cxx\debug\5n3q5w61\logs\armeabi-v7a\build_model.json
+[        ] Resolve mutations for :app:buildCMakeDebug[armeabi-v7a] (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] :app:buildCMakeDebug[armeabi-v7a] (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] > Task :app:buildCMakeDebug[armeabi-v7a]
+[        ] Caching disabled for task ':app:buildCMakeDebug[armeabi-v7a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:buildCMakeDebug[armeabi-v7a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: starting build
+[        ] C/C++: reading expected JSONs
+[        ] C/C++: done reading expected JSONs
+[        ] C/C++: executing build commands for targets that produce .so files or executables
+[        ] C/C++: evaluate miniconfig
+[        ] C/C++: no libraries
+[        ] Resolve mutations for :app:configureCMakeDebug[x86_64] (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] :app:configureCMakeDebug[x86_64] (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] > Task :app:configureCMakeDebug[x86_64]
+[        ] Caching disabled for task ':app:configureCMakeDebug[x86_64]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:configureCMakeDebug[x86_64]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|x86_64 : Start JSON generation. Platform version: 24 min SDK version: x86_64
+[        ] C/C++: C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|x86_64 : JSON 'C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\.cxx\debug\5n3q5w61\x86_64\android_gradle_build.json' was up-to-date
+[        ] C/C++: C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|x86_64 : JSON generation completed without problems
+[        ] C/C++: C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter_tools\gradle\src\main\scripts\CMakeLists.txt debug|x86_64 : Writing build model to C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\intermediates\cxx\debug\5n3q5w61\logs\x86_64\build_model.json
+[        ] Resolve mutations for :app:buildCMakeDebug[x86_64] (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] :app:buildCMakeDebug[x86_64] (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] > Task :app:buildCMakeDebug[x86_64]
+[        ] Caching disabled for task ':app:buildCMakeDebug[x86_64]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:buildCMakeDebug[x86_64]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: starting build
+[        ] C/C++: reading expected JSONs
+[        ] C/C++: done reading expected JSONs
+[        ] C/C++: executing build commands for targets that produce .so files or executables
+[        ] C/C++: evaluate miniconfig
+[        ] C/C++: no libraries
+[        ] Resolve mutations for :app:mergeDebugJniLibFolders (Thread[#242,Execution worker Thread 4,5,main]) started.
+[        ] :app:mergeDebugJniLibFolders (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :app:mergeDebugJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':app:mergeDebugJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:mergeDebugJniLibFolders (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:mergeDebugJniLibFolders (Thread[#239,Execution worker,5,main]) started.
+[  +76 ms] > Task :shared_preferences_android:mergeDebugJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:mergeDebugJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':shared_preferences_android:mergeDebugJniLibFolders' as it is up-to-date.
+[   +1 ms] Resolve mutations for :shared_preferences_android:mergeDebugNativeLibs (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:mergeDebugNativeLibs (Thread[#239,Execution worker,5,main]) started.
+[   +1 ms] > Task :shared_preferences_android:mergeDebugNativeLibs NO-SOURCE
+[        ] Skipping task ':shared_preferences_android:mergeDebugNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :shared_preferences_android:copyDebugJniLibsProjectOnly (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:copyDebugJniLibsProjectOnly (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :shared_preferences_android:copyDebugJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:copyDebugJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':shared_preferences_android:copyDebugJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :shared_preferences_android) (Thread[#239,Execution worker,5,main]) started.
+[        ] Resolve mutations for :app:mergeDebugNativeLibs (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:mergeDebugNativeLibs (Thread[#239,Execution worker,5,main]) started.
+[+2795 ms] > Task :app:mergeDebugNativeLibs UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugNativeLibs' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:mergeDebugNativeLibs' as it is up-to-date.
+[        ] Resolve mutations for :app:stripDebugDebugSymbols (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:stripDebugDebugSymbols (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :app:stripDebugDebugSymbols UP-TO-DATE
+[        ] Caching disabled for task ':app:stripDebugDebugSymbols' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:stripDebugDebugSymbols' as it is up-to-date.
+[        ] Resolve mutations for :app:validateSigningDebug (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:validateSigningDebug (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :app:validateSigningDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:validateSigningDebug' because:
+[        ]   Build cache is disabled
+[   +1 ms]   Caching has been disabled for the task
+[        ] Skipping task ':app:validateSigningDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:writeDebugAppMetadata (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:writeDebugAppMetadata (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :app:writeDebugAppMetadata UP-TO-DATE
+[        ] Caching disabled for task ':app:writeDebugAppMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:writeDebugAppMetadata' as it is up-to-date.
+[        ] Resolve mutations for :app:writeDebugSigningConfigVersions (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:writeDebugSigningConfigVersions (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+[        ] Caching disabled for task ':app:writeDebugSigningConfigVersions' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:writeDebugSigningConfigVersions' as it is up-to-date.
+[        ] Resolve mutations for :app:packageDebug (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:packageDebug (Thread[#239,Execution worker,5,main]) started.
+[  +91 ms] > Task :app:packageDebug UP-TO-DATE
+[        ] Custom actions are attached to task ':app:packageDebug'.
+[        ] Caching disabled for task ':app:packageDebug' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:packageDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:createDebugApkListingFileRedirect (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:createDebugApkListingFileRedirect (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+[        ] Caching disabled for task ':app:createDebugApkListingFileRedirect' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:createDebugApkListingFileRedirect' as it is up-to-date.
+[        ] Resolve mutations for :app:assembleDebug (Thread[#239,Execution worker,5,main]) started.
+[        ] :app:assembleDebug (Thread[#239,Execution worker,5,main]) started.
+[ +699 ms] > Task :app:assembleDebug
+[        ] Caching disabled for task ':app:assembleDebug' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:assembleDebug' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Resolve mutations for :shared_preferences_android:stripDebugDebugSymbols (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:stripDebugDebugSymbols (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :shared_preferences_android:stripDebugDebugSymbols NO-SOURCE
+[        ] Skipping task ':shared_preferences_android:stripDebugDebugSymbols' as it has no source files and no previous output files.
+[        ] Resolve mutations for :shared_preferences_android:copyDebugJniLibsProjectAndLocalJars (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:copyDebugJniLibsProjectAndLocalJars (Thread[#239,Execution worker,5,main]) started.
+[  +96 ms] > Task :shared_preferences_android:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:copyDebugJniLibsProjectAndLocalJars' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':shared_preferences_android:copyDebugJniLibsProjectAndLocalJars' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:extractDebugAnnotations (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:extractDebugAnnotations (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :shared_preferences_android:extractDebugAnnotations UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:extractDebugAnnotations' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':shared_preferences_android:extractDebugAnnotations' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:extractDeepLinksForAarDebug (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:extractDeepLinksForAarDebug (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :shared_preferences_android:extractDeepLinksForAarDebug UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:extractDeepLinksForAarDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':shared_preferences_android:extractDeepLinksForAarDebug' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:mergeDebugGeneratedProguardFiles (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:mergeDebugGeneratedProguardFiles (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :shared_preferences_android:mergeDebugGeneratedProguardFiles UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:mergeDebugGeneratedProguardFiles' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':shared_preferences_android:mergeDebugGeneratedProguardFiles' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:mergeDebugConsumerProguardFiles (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:mergeDebugConsumerProguardFiles (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :shared_preferences_android:mergeDebugConsumerProguardFiles UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:mergeDebugConsumerProguardFiles' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':shared_preferences_android:mergeDebugConsumerProguardFiles' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:prepareDebugArtProfile (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:prepareDebugArtProfile (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :shared_preferences_android:prepareDebugArtProfile UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:prepareDebugArtProfile' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':shared_preferences_android:prepareDebugArtProfile' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:prepareLintJarForPublish (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:prepareLintJarForPublish (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :shared_preferences_android:prepareLintJarForPublish UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:prepareLintJarForPublish' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':shared_preferences_android:prepareLintJarForPublish' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:mergeDebugJavaResource (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:mergeDebugJavaResource (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :shared_preferences_android:mergeDebugJavaResource UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:mergeDebugJavaResource' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':shared_preferences_android:mergeDebugJavaResource' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:syncDebugLibJars (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:syncDebugLibJars (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :shared_preferences_android:syncDebugLibJars UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:syncDebugLibJars' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':shared_preferences_android:syncDebugLibJars' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:bundleDebugAar (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:bundleDebugAar (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :shared_preferences_android:bundleDebugAar UP-TO-DATE
+[        ] Caching disabled for task ':shared_preferences_android:bundleDebugAar' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':shared_preferences_android:bundleDebugAar' as it is up-to-date.
+[        ] Resolve mutations for :shared_preferences_android:assembleDebug (Thread[#239,Execution worker,5,main]) started.
+[        ] :shared_preferences_android:assembleDebug (Thread[#239,Execution worker,5,main]) started.
+[        ] > Task :shared_preferences_android:assembleDebug UP-TO-DATE
+[        ] Skipping task ':shared_preferences_android:assembleDebug' as it has no actions.
+[  +87 ms] Build 051b20af-57e6-44d5-9d02-48e3930c6502 is closed
+[        ] [Incubating] Problems report is available at: file:///C:/Users/Rishi/Desktop/trading_engins/velora_flutter/build/reports/problems/problems-report.html
+[   +1 ms] Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+[        ] You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+[        ] For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+[        ] BUILD SUCCESSFUL in 22s
+[        ] 83 actionable tasks: 12 executed, 71 up-to-date
+[        ] Watched directory hierarchies: [C:\Users\Rishi\Downloads\Compressed\flutter_windows_3.41.4-stable\flutter\packages\flutter_tools\gradle, C:\Users\Rishi\Desktop\trading_engins\velora_flutter\android]
+[  +97 ms] Running Gradle task 'assembleDebug'... (completed in 22.9s)
+[   +4 ms] Calculate SHA1: LocalDirectory: 'C:\Users\Rishi\Desktop\trading_engins\velora_flutter\build\app\outputs\flutter-apk'/app-debug.apk
+[+2090 ms] ΓêÜ Built build\app\outputs\flutter-apk\app-debug.apk
+[   +9 ms] "flutter apk" took 29,674ms.
+[ +483 ms] Running 1 shutdown hook
+[   +3 ms] Shutdown hooks complete
+[ +264 ms] exiting with code 0

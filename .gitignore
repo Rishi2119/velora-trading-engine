@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+.env
+logs/
+.idea/
+node_modules/
+*.db
+*.rar

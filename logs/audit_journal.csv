@@ -1,0 +1,1 @@
+timestamp,event_type,trade_id,action,symbol,direction,entry,sl,tp,volume,pnl,status,reason,balance,hash,previous_hash

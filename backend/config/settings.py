@@ -2,13 +2,18 @@
 Velora Backend — Configuration
 All settings loaded from environment variables with sensible defaults.
 """
-import os
 from pydantic_settings import BaseSettings
-from pydantic import field_validator
+from pydantic import ConfigDict
 from typing import List
 
 
 class Settings(BaseSettings):
+    model_config = ConfigDict(
+        env_file="../.env",
+        env_file_encoding="utf-8",
+        extra="ignore",
+    )
+
     # ── Application ──────────────────────────────────────────────
     APP_NAME: str = "Velora Trading API"
     APP_VERSION: str = "2.0.0"
@@ -25,7 +30,7 @@ class Settings(BaseSettings):
 
     @property
     def cors_origins_list(self) -> List[str]:
-        return [o.strip() for o in self.CORS_ORIGINS.split(",")]
+        return [o.strip() for o in self.CORS_ORIGINS.split(",") if o.strip()]
 
     # ── Database ──────────────────────────────────────────────────
     DATABASE_URL: str = "sqlite+aiosqlite:///./velora.db"
@@ -57,11 +62,6 @@ class Settings(BaseSettings):
     MIN_RISK_REWARD: float = 3.0
     MAX_DAILY_LOSS: float = 20.0
     MAX_DAILY_TRADES: int = 5
-
-    class Config:
-        env_file = "../.env"
-        env_file_encoding = "utf-8"
-        extra = "ignore"
 
 
 settings = Settings()

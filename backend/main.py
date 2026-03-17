@@ -73,11 +73,11 @@ app = FastAPI(
 app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)  # type: ignore
 
-# CORS
+# CORS — origins are configured via the CORS_ORIGINS env var
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=False,
+    allow_origins=settings.cors_origins_list,
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -114,7 +114,31 @@ async def root():
 
 @app.get("/health", tags=["System"])
 async def health():
-    return {"status": "ok", "service": settings.APP_NAME, "version": settings.APP_VERSION}
+    """Health check — verifies database connectivity."""
+    db_ok = False
+    try:
+        from backend.database.database import engine
+        from sqlalchemy import text
+        async with engine.connect() as conn:
+            await conn.execute(text("SELECT 1"))
+        db_ok = True
+    except Exception as exc:
+        logger.warning(f"Health check DB error: {exc}")
+
+    mt5_connected = False
+    try:
+        from backend.utils.mt5_manager import mt5_manager
+        mt5_connected = mt5_manager.connected
+    except Exception:
+        pass
+
+    return {
+        "status": "ok" if db_ok else "degraded",
+        "service": settings.APP_NAME,
+        "version": settings.APP_VERSION,
+        "database": "ok" if db_ok else "error",
+        "mt5_connected": mt5_connected,
+    }
 
 
 # ── Entry point ───────────────────────────────────────────────────────────────

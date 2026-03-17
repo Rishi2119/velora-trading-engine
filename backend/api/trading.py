@@ -6,7 +6,7 @@ import logging
 import os
 from datetime import datetime
 from fastapi import APIRouter, Depends, HTTPException, Query
-from pydantic import BaseModel
+from pydantic import BaseModel, Field, field_validator
 from typing import Optional, List
 from backend.config.settings import settings
 from backend.utils.security import get_current_user
@@ -34,12 +34,29 @@ def _demo_stats():
 # ── Schemas ───────────────────────────────────────────────────────────────────
 
 class ExecuteTradeRequest(BaseModel):
-    symbol: str
-    direction: str  # BUY / SELL
-    lots: float = 0.01
-    stop_loss: Optional[float] = None
-    take_profit: Optional[float] = None
-    comment: Optional[str] = "Velora"
+    symbol: str = Field(..., description="Trading symbol, e.g. EURUSD")
+    direction: str = Field(..., description="Trade direction: BUY or SELL")
+    lots: float = Field(0.01, gt=0, le=100, description="Trade volume in lots (0 < lots <= 100)")
+    stop_loss: Optional[float] = Field(None, gt=0, description="Stop loss price (must be > 0 when provided)")
+    take_profit: Optional[float] = Field(None, gt=0, description="Take profit price (must be > 0 when provided)")
+    comment: Optional[str] = Field("Velora", max_length=64)
+
+    @field_validator("direction")
+    @classmethod
+    def validate_direction(cls, v: str) -> str:
+        upper = v.upper()
+        if upper not in ("BUY", "SELL"):
+            raise ValueError("direction must be BUY or SELL")
+        return upper
+
+    @field_validator("symbol")
+    @classmethod
+    def validate_symbol(cls, v: str) -> str:
+        import re
+        v = v.strip().upper()
+        if not re.match(r"^[A-Z0-9._]{3,20}$", v):
+            raise ValueError("symbol must be 3–20 alphanumeric characters (dots and underscores allowed)")
+        return v
 
 class ConnectRequest(BaseModel):
     account: str

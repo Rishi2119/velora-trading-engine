@@ -7,7 +7,7 @@ import asyncio
 import logging
 import json
 import random
-from datetime import datetime
+from datetime import datetime, timezone
 import httpx
 from fastapi import APIRouter, WebSocket, WebSocketDisconnect
 from backend.config.settings import settings
@@ -45,7 +45,7 @@ def _simulate_tick(symbol: str) -> dict:
         "bid": bid,
         "ask": ask,
         "spread": round((ask - bid) * (10000 if "JPY" not in symbol else 100), 1),
-        "timestamp": datetime.utcnow().isoformat() + "Z",
+        "timestamp": datetime.now(timezone.utc).isoformat(),
     }
 
 
@@ -72,7 +72,7 @@ async def _get_live_prices() -> list:
 async def get_prices():
     """Current price snapshot for all tracked currency pairs."""
     prices = await _get_live_prices()
-    return {"prices": prices, "pairs": PAIRS, "timestamp": datetime.utcnow().isoformat() + "Z"}
+    return {"prices": prices, "pairs": PAIRS, "timestamp": datetime.now(timezone.utc).isoformat()}
 
 
 @router.websocket("/stream")
@@ -90,7 +90,7 @@ async def price_stream(websocket: WebSocket):
             payload = json.dumps({
                 "type": "prices",
                 "data": prices,
-                "timestamp": datetime.utcnow().isoformat() + "Z",
+                "timestamp": datetime.now(timezone.utc).isoformat(),
             })
             await websocket.send_text(payload)
             await asyncio.sleep(1)

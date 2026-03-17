@@ -2,15 +2,19 @@
 Velora Backend — API Tests
 Run with: cd trading_engins && python -m pytest backend/tests/ -v
 """
+import os
+
+# Override settings BEFORE any backend imports so the Settings singleton
+# picks up the in-memory database and test keys.
+os.environ["DATABASE_URL"] = "sqlite+aiosqlite:///:memory:"
+os.environ["JWT_SECRET_KEY"] = "test-secret-key"
+os.environ["CORS_ORIGINS"] = "http://localhost:3000"
+
 import pytest
+import pytest_asyncio
 import asyncio
 from httpx import AsyncClient, ASGITransport
 from backend.main import app
-
-# Use in-memory SQLite for tests
-import os
-os.environ["DATABASE_URL"] = "sqlite+aiosqlite:///:memory:"
-os.environ["JWT_SECRET_KEY"] = "test-secret-key"
 
 
 @pytest.fixture(scope="session")
@@ -20,8 +24,11 @@ def event_loop():
     loop.close()
 
 
-@pytest.fixture(scope="module")
+@pytest_asyncio.fixture(scope="module")
 async def client():
+    # Explicitly initialize the database tables (lifespan is not triggered by ASGITransport)
+    from backend.database.database import init_db
+    await init_db()
     async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as c:
         yield c
 
@@ -32,7 +39,13 @@ async def client():
 async def test_health(client):
     resp = await client.get("/health")
     assert resp.status_code == 200
-    assert resp.json()["status"] == "ok"
+    data = resp.json()
+    assert data["status"] in ("ok", "degraded")
+    assert "database" in data
+    assert "mt5_connected" in data
+
+
+# ── Root ─────────────────────────────────────────────────────────────────────
 
 
 @pytest.mark.asyncio
@@ -112,6 +125,83 @@ async def test_me_with_auth(client):
     )
     assert resp.status_code == 200
     assert resp.json()["email"] == "me@velora.com"
+
+
+@pytest.mark.asyncio
+async def test_register_short_password(client):
+    resp = await client.post("/api/v1/auth/register", json={
+        "email": "short@velora.com",
+        "password": "abc123",  # only 6 chars — below minimum of 8
+    })
+    assert resp.status_code == 400
+    assert "8" in resp.json()["detail"]
+
+
+# ── Trading input validation ──────────────────────────────────────────────────
+
+@pytest.mark.asyncio
+async def test_execute_trade_invalid_direction(client):
+    """Direction must be BUY or SELL."""
+    reg = await client.post("/api/v1/auth/register", json={
+        "email": "trader1@velora.com",
+        "password": "securepass",
+    })
+    token = reg.json()["access_token"]
+    resp = await client.post(
+        "/api/v1/trading/execute",
+        json={"symbol": "EURUSD", "direction": "LONG", "lots": 0.01},
+        headers={"Authorization": f"Bearer {token}"},
+    )
+    assert resp.status_code == 422
+
+
+@pytest.mark.asyncio
+async def test_execute_trade_invalid_lots(client):
+    """Lots must be > 0."""
+    reg = await client.post("/api/v1/auth/register", json={
+        "email": "trader2@velora.com",
+        "password": "securepass",
+    })
+    token = reg.json()["access_token"]
+    resp = await client.post(
+        "/api/v1/trading/execute",
+        json={"symbol": "EURUSD", "direction": "BUY", "lots": -0.5},
+        headers={"Authorization": f"Bearer {token}"},
+    )
+    assert resp.status_code == 422
+
+
+@pytest.mark.asyncio
+async def test_execute_trade_missing_symbol(client):
+    """Symbol is required."""
+    reg = await client.post("/api/v1/auth/register", json={
+        "email": "trader3@velora.com",
+        "password": "securepass",
+    })
+    token = reg.json()["access_token"]
+    resp = await client.post(
+        "/api/v1/trading/execute",
+        json={"direction": "BUY", "lots": 0.01},
+        headers={"Authorization": f"Bearer {token}"},
+    )
+    assert resp.status_code == 422
+
+
+@pytest.mark.asyncio
+async def test_execute_trade_no_mt5(client):
+    """Without MT5 connected the endpoint returns 400."""
+    reg = await client.post("/api/v1/auth/register", json={
+        "email": "trader4@velora.com",
+        "password": "securepass",
+    })
+    token = reg.json()["access_token"]
+    resp = await client.post(
+        "/api/v1/trading/execute",
+        json={"symbol": "EURUSD", "direction": "BUY", "lots": 0.01},
+        headers={"Authorization": f"Bearer {token}"},
+    )
+    assert resp.status_code == 400
+    assert "MT5" in resp.json()["detail"]
 
 
 # ── Trading (demo mode) ───────────────────────────────────────────────────────

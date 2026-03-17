@@ -3153,3 +3153,4 @@
 {"timestamp": "2026-03-09T07:52:27.830856Z", "level": "INFO", "source": "backend.database.database", "message": "Database tables initialized."}
 {"timestamp": "2026-03-09T07:52:27.831148Z", "level": "INFO", "source": "root", "message": "Database initialized"}
 {"timestamp": "2026-03-09T07:52:27.832828Z", "level": "INFO", "source": "root", "message": "Shutting down Velora backend"}
+{"timestamp": "2026-03-17T11:22:18.147376Z", "level": "INFO", "source": "mt5_trade_executor", "message": "MT5TradeExecutor ready. Spread limit: 2.0p, Slippage limit: 3.0p"}

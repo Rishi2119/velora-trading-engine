@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { trading, ai, market, type TradeStats, type AgentStatus, type PriceTick } from "@/lib/api";
 import Sidebar from "@/components/Sidebar";
@@ -18,6 +18,71 @@ function useAuth() {
             router.replace("/login");
         }
     }, [router]);
+}
+
+// ── WebSocket live price hook ─────────────────────────────────────────────────
+function useLivePrices(fallbackPrices: PriceTick[]): { prices: PriceTick[]; wsConnected: boolean } {
+    const [prices, setPrices] = useState<PriceTick[]>(fallbackPrices);
+    const [wsConnected, setWsConnected] = useState(false);
+    const wsRef = useRef<WebSocket | null>(null);
+    const reconnectTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+    useEffect(() => {
+        let unmounted = false;
+
+        function connect() {
+            if (unmounted) return;
+            try {
+                const ws = new WebSocket(market.wsUrl());
+                wsRef.current = ws;
+
+                ws.onopen = () => {
+                    if (!unmounted) setWsConnected(true);
+                };
+
+                ws.onmessage = (evt) => {
+                    if (unmounted) return;
+                    try {
+                        const msg = JSON.parse(evt.data);
+                        if (msg.type === "prices" && Array.isArray(msg.data)) {
+                            setPrices(msg.data);
+                        }
+                    } catch {
+                        // ignore malformed frames
+                    }
+                };
+
+                ws.onerror = () => { ws.close(); };
+
+                ws.onclose = () => {
+                    if (!unmounted) {
+                        setWsConnected(false);
+                        // Reconnect after 3 seconds
+                        reconnectTimer.current = setTimeout(connect, 3000);
+                    }
+                };
+            } catch {
+                reconnectTimer.current = setTimeout(connect, 3000);
+            }
+        }
+
+        connect();
+
+        return () => {
+            unmounted = true;
+            if (reconnectTimer.current) clearTimeout(reconnectTimer.current);
+            wsRef.current?.close();
+        };
+    }, []);
+
+    // Keep prices in sync with initial HTTP fetch while WS is connecting
+    useEffect(() => {
+        if (!wsConnected && fallbackPrices.length > 0) {
+            setPrices(fallbackPrices);
+        }
+    }, [fallbackPrices, wsConnected]);
+
+    return { prices, wsConnected };
 }
 
 // ── Stat card ─────────────────────────────────────────────────────────────────
@@ -45,10 +110,13 @@ export default function DashboardPage() {
     useAuth();
     const [stats, setStats] = useState<TradeStats | null>(null);
     const [agentStatus, setAgentStatus] = useState<AgentStatus | null>(null);
-    const [prices, setPrices] = useState<PriceTick[]>([]);
+    const [httpPrices, setHttpPrices] = useState<PriceTick[]>([]);
     const [equityData, setEquityData] = useState<any[]>([]);
     const [trades, setTrades] = useState<any[]>([]);
     const [loading, setLoading] = useState(true);
+
+    // Live prices via WebSocket with HTTP fallback
+    const { prices, wsConnected } = useLivePrices(httpPrices);
 
     const fetchAll = useCallback(async () => {
         try {
@@ -61,7 +129,7 @@ export default function DashboardPage() {
             ]);
             if (s.status === "fulfilled") setStats(s.value);
             if (a.status === "fulfilled") setAgentStatus(a.value);
-            if (p.status === "fulfilled") setPrices(p.value.prices);
+            if (p.status === "fulfilled") setHttpPrices(p.value.prices);
             if (perf.status === "fulfilled") setEquityData(perf.value.daily || []);
             if (hist.status === "fulfilled") setTrades(hist.value.trades?.slice(0, 8) || []);
         } finally {
@@ -71,7 +139,20 @@ export default function DashboardPage() {
 
     useEffect(() => {
         fetchAll();
-        const interval = setInterval(fetchAll, 5000);
+        // Poll stats/trades/agent every 10 s (prices come from WebSocket)
+        const interval = setInterval(() => {
+            Promise.allSettled([
+                trading.stats(),
+                ai.thoughts(),
+                trading.performance(30),
+                trading.openPositions(),
+            ]).then(([s, a, perf, hist]) => {
+                if (s.status === "fulfilled") setStats(s.value);
+                if (a.status === "fulfilled") setAgentStatus(a.value);
+                if (perf.status === "fulfilled") setEquityData(perf.value.daily || []);
+                if (hist.status === "fulfilled") setTrades(hist.value.trades?.slice(0, 8) || []);
+            });
+        }, 10000);
         return () => clearInterval(interval);
     }, [fetchAll]);
 
@@ -210,7 +291,11 @@ export default function DashboardPage() {
                     <div className="card mb-6">
                         <div className="flex items-center gap-2 mb-4" style={{ justifyContent: "space-between" }}>
                             <h3>Live Prices</h3>
-                            <span className="badge badge-blue"><Wifi size={10} style={{ marginRight: 4 }} />Streaming</span>
+                            {wsConnected ? (
+                                <span className="badge badge-green"><Wifi size={10} style={{ marginRight: 4 }} />Live Stream</span>
+                            ) : (
+                                <span className="badge badge-yellow"><WifiOff size={10} style={{ marginRight: 4 }} />Connecting…</span>
+                            )}
                         </div>
                         <div style={{ display: "flex", flexWrap: "wrap", gap: 12 }}>
                             {prices.map(p => (

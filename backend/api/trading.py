@@ -4,11 +4,16 @@ Provides real-time MT5 data and trade execution endpoints directly via MT5 modul
 """
 import logging
 import os
+import json
 from datetime import datetime
 from fastapi import APIRouter, Depends, HTTPException, Query
-from pydantic import BaseModel
+from pydantic import BaseModel, field_validator
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy import select
 from typing import Optional, List
 from backend.config.settings import settings
+from backend.database.database import get_db
+from backend.database.models import Strategy
 from backend.utils.security import get_current_user
 from backend.utils.mt5_manager import mt5_manager
 from backend.utils.mt5_trade_executor import mt5_trade_executor
@@ -40,6 +45,43 @@ class ExecuteTradeRequest(BaseModel):
     stop_loss: Optional[float] = None
     take_profit: Optional[float] = None
     comment: Optional[str] = "Velora"
+
+    @field_validator("symbol")
+    @classmethod
+    def validate_symbol(cls, v: str) -> str:
+        v = v.strip().upper()
+        if not v or not v.replace(".", "").isalnum():
+            raise ValueError(
+                "symbol must be a non-empty alphanumeric string, optionally with periods (e.g. EURUSD or US30.cash)"
+            )
+        if len(v) > 20:
+            raise ValueError("symbol must be 20 characters or fewer")
+        return v
+
+    @field_validator("direction")
+    @classmethod
+    def validate_direction(cls, v: str) -> str:
+        v = v.strip().upper()
+        if v not in ("BUY", "SELL"):
+            raise ValueError("direction must be BUY or SELL")
+        return v
+
+    @field_validator("lots")
+    @classmethod
+    def validate_lots(cls, v: float) -> float:
+        if v < 0.01:
+            raise ValueError("lots must be at least 0.01")
+        if v > 100.0:
+            raise ValueError("lots must be 100 or fewer")
+        return round(v, 2)
+
+    @field_validator("stop_loss", "take_profit", mode="before")
+    @classmethod
+    def validate_prices(cls, v: Optional[float]) -> Optional[float]:
+        if v is not None and v < 0:
+            raise ValueError("price levels must be non-negative")
+        return v
+
 
 class ConnectRequest(BaseModel):
     account: str
@@ -95,10 +137,16 @@ async def get_open_positions():
 
 
 @router.get("/history")
-async def get_trade_history(days: int = Query(30, ge=1, le=365)):
-    """Closed trade history."""
+async def get_trade_history(
+    days: int = Query(30, ge=1, le=365),
+    symbol: Optional[str] = Query(None, description="Filter by symbol, e.g. EURUSD"),
+):
+    """Closed trade history with optional symbol filter."""
     if mt5_manager.connected:
         closed = mt5_manager.get_trade_history(days=days)
+        if symbol:
+            symbol_upper = symbol.strip().upper()
+            closed = [t for t in closed if t.get("symbol", "").upper() == symbol_upper]
         return {"trades": closed, "count": len(closed), "live": True}
     return {"trades": [], "count": 0, "live": False, "demo_mode": True}
 
@@ -210,19 +258,58 @@ async def execute_trade(body: ExecuteTradeRequest, current: dict = Depends(get_c
 
     return result
 
-@router.get("/strategies")
-async def get_strategies():
-    """Configured trading strategies status."""
+@router.get("/risk")
+async def get_risk_stats():
+    """Current risk manager state — daily P&L, trade counts, remaining allowances."""
     return {
+        "max_daily_loss": settings.MAX_DAILY_LOSS,
+        "max_daily_trades": settings.MAX_DAILY_TRADES,
+        "risk_per_trade": settings.RISK_PER_TRADE,
+        "min_risk_reward": settings.MIN_RISK_REWARD,
+        "kill_switch_active": os.path.exists(KILL_SWITCH_PATH),
+        "mt5_connected": mt5_manager.connected,
+    }
+
+
+@router.get("/strategies")
+async def get_strategies(db: AsyncSession = Depends(get_db)):
+    """Configured trading strategies — live from database with hardcoded fallback."""
+    result = await db.execute(select(Strategy))
+    db_strategies = {s.name: s.enabled for s in result.scalars().all()}
+
+    defaults = {
         "volatility_breakout": True,
         "london_breakout": True,
         "aggressive_trend": True,
         "mean_reversion": True,
-        "demo_mode": False if mt5_manager.connected else True,
     }
+    merged = {**defaults, **db_strategies}
+    return {**merged, "demo_mode": not mt5_manager.connected}
 
 
 @router.put("/strategies")
-async def update_strategies(body: dict, current: dict = Depends(get_current_user)):
-    """Enable/disable strategies."""
-    return {"success": True}
+async def update_strategies(
+    body: dict,
+    current: dict = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db),
+):
+    """Enable/disable strategies — persisted to database."""
+    KNOWN_STRATEGIES = {
+        "volatility_breakout": "Volatility Breakout",
+        "london_breakout": "London Breakout",
+        "aggressive_trend": "Aggressive Trend",
+        "mean_reversion": "Mean Reversion",
+    }
+    updated = {}
+    for name, display_name in KNOWN_STRATEGIES.items():
+        if name in body and isinstance(body[name], bool):
+            result = await db.execute(select(Strategy).where(Strategy.name == name))
+            row = result.scalar_one_or_none()
+            if row:
+                row.enabled = body[name]
+            else:
+                db.add(Strategy(name=name, display_name=display_name, enabled=body[name]))
+            updated[name] = body[name]
+
+    await db.commit()
+    return {"success": True, "updated": updated}

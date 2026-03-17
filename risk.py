@@ -44,6 +44,7 @@ class RiskManager:
         self.daily_trades = 0
         self.current_positions = 0
         self.last_reset_date = date.today()
+        self._morning_reset_done = False
         
         # Persistence
         self.state_file = state_file

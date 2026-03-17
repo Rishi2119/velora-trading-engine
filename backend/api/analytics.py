@@ -85,24 +85,53 @@ async def get_performance_analytics(days: int = Query(30, ge=1, le=365)):
             )
             raw = resp.json()
 
-        # Enrich with breakdown data
         curve = raw.get("daily", [])
         summary = raw.get("summary", {})
-        return {
-            "summary": summary,
-            "equity_curve": curve,
-            "by_strategy": {
+
+        # Build live breakdown from real closed trades when possible
+        by_strategy: dict = {}
+        by_symbol: dict = {}
+        if raw.get("live") and raw.get("trades"):
+            for t in raw["trades"]:
+                strat = t.get("strategy", "UNKNOWN")
+                sym = t.get("symbol", "UNKNOWN")
+                pnl = t.get("pnl", 0)
+                won = pnl > 0
+                for store, key in ((by_strategy, strat), (by_symbol, sym)):
+                    if key not in store:
+                        store[key] = {"trades": 0, "pnl": 0.0, "wins": 0}
+                    store[key]["trades"] += 1
+                    store[key]["pnl"] += pnl
+                    if won:
+                        store[key]["wins"] += 1
+            for store in (by_strategy, by_symbol):
+                for key in store:
+                    n = store[key]["trades"]
+                    store[key]["win_rate"] = round(store[key]["wins"] / n * 100, 1) if n else 0
+                    del store[key]["wins"]
+                    store[key]["pnl"] = round(store[key]["pnl"], 2)
+
+        # Fall back to demo breakdown when live trade data is unavailable
+        if not by_strategy:
+            by_strategy = {
                 "VOLATILITY_BREAKOUT": {"trades": 24, "pnl": 68.5, "win_rate": 66.7},
                 "LONDON_BREAKOUT":     {"trades": 22, "pnl": 42.3, "win_rate": 59.1},
                 "AGGRESSIVE_TREND":    {"trades": 21, "pnl": 19.4, "win_rate": 61.9},
                 "MEAN_REVERSION":      {"trades": 20, "pnl": 12.1, "win_rate": 60.0},
-            },
-            "by_symbol": {
+            }
+        if not by_symbol:
+            by_symbol = {
                 "EURUSD": {"trades": 33, "pnl": 55.2, "win_rate": 63.6},
                 "GBPUSD": {"trades": 22, "pnl": 38.7, "win_rate": 59.1},
                 "USDCAD": {"trades": 18, "pnl": 28.4, "win_rate": 66.7},
                 "AUDUSD": {"trades": 14, "pnl": 20.0, "win_rate": 57.1},
-            },
+            }
+
+        return {
+            "summary": summary,
+            "equity_curve": curve,
+            "by_strategy": by_strategy,
+            "by_symbol": by_symbol,
             "live": raw.get("live", False),
         }
     except Exception as e:

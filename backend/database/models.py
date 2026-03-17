@@ -1,11 +1,15 @@
 """
 Velora Database Models — SQLAlchemy ORM
 """
-from datetime import datetime
+from datetime import datetime, timezone
 from sqlalchemy import (
     Column, Integer, String, Float, Boolean, DateTime, Text, ForeignKey
 )
 from sqlalchemy.orm import DeclarativeBase, relationship
+
+
+def _utcnow():
+    return datetime.now(timezone.utc)
 
 
 class Base(DeclarativeBase):
@@ -21,8 +25,8 @@ class User(Base):
     full_name = Column(String(255), nullable=True)
     is_active = Column(Boolean, default=True)
     is_admin = Column(Boolean, default=False)
-    created_at = Column(DateTime, default=datetime.utcnow)
-    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    created_at = Column(DateTime, default=_utcnow)
+    updated_at = Column(DateTime, default=_utcnow, onupdate=_utcnow)
 
     trades = relationship("Trade", back_populates="user", lazy="select")
     portfolio_snapshots = relationship("PortfolioSnapshot", back_populates="user", lazy="select")
@@ -46,7 +50,7 @@ class Trade(Base):
     rr_ratio = Column(Float, nullable=True)
     mt5_ticket = Column(Integer, nullable=True)
     comment = Column(String(255), nullable=True)
-    opened_at = Column(DateTime, default=datetime.utcnow)
+    opened_at = Column(DateTime, default=_utcnow)
     closed_at = Column(DateTime, nullable=True)
 
     user = relationship("User", back_populates="trades")
@@ -61,8 +65,8 @@ class Strategy(Base):
     enabled = Column(Boolean, default=True)
     config_json = Column(Text, default="{}")
     description = Column(Text, nullable=True)
-    created_at = Column(DateTime, default=datetime.utcnow)
-    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    created_at = Column(DateTime, default=_utcnow)
+    updated_at = Column(DateTime, default=_utcnow, onupdate=_utcnow)
 
 
 class PortfolioSnapshot(Base):
@@ -74,7 +78,7 @@ class PortfolioSnapshot(Base):
     equity = Column(Float, nullable=False)
     profit = Column(Float, default=0.0)
     currency = Column(String(10), default="USD")
-    snapshot_at = Column(DateTime, default=datetime.utcnow)
+    snapshot_at = Column(DateTime, default=_utcnow)
 
     user = relationship("User", back_populates="portfolio_snapshots")
 
@@ -87,7 +91,7 @@ class MarketSnapshot(Base):
     bid = Column(Float, nullable=True)
     ask = Column(Float, nullable=True)
     spread = Column(Float, nullable=True)
-    timestamp = Column(DateTime, default=datetime.utcnow, index=True)
+    timestamp = Column(DateTime, default=_utcnow, index=True)
 
 
 class LogEntry(Base):
@@ -98,4 +102,4 @@ class LogEntry(Base):
     source = Column(String(100), nullable=True)
     message = Column(Text, nullable=False)
     extra_json = Column(Text, nullable=True)
-    created_at = Column(DateTime, default=datetime.utcnow, index=True)
+    created_at = Column(DateTime, default=_utcnow, index=True)

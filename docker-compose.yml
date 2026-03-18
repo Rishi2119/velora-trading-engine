@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./backend:/app/backend
+      - ./velora.db:/app/velora.db
+    environment:
+      - DATABASE_URL=sqlite+aiosqlite:///./velora.db
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  mobile_api:
+    build:
+      context: .
+      dockerfile: Dockerfile.mobile_api
+    ports:
+      - "5050:5050"
+    env_file:
+      - .env
+    volumes:
+      - ./mobile_api:/app/mobile_api
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5050/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000/api/v1
+      - NEXT_PUBLIC_MOBILE_API_URL=http://localhost:5050
+    depends_on:
+      - backend
+      - mobile_api
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

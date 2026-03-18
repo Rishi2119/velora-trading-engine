@@ -1,0 +1,56 @@
+# ENV
+.env
+.env.*
+.env.local
+
+# Secrets
+firebase-service-account.json
+*.pem
+*.key
+*.crt
+*.p12
+
+# Logs
+logs/
+*.log
+*.log.*
+*.txt
+*.out
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data / DB
+*.db
+*.sqlite3
+
+# Models
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# Node / Frontend
+node_modules/
+.next/
+out/
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+
+# Builds / binaries
+builds/
+*.apk
+*.exe
+*.zip
+*.rar
+
+# IDE
+.vscode/
+.idea/

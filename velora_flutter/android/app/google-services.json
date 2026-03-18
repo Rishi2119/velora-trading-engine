@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "931055328940",
+    "project_id": "velora-trading",
+    "storage_bucket": "velora-trading.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931055328940:android:97f688159754cc48b50909",
+        "android_client_info": {
+          "package_name": "com.velora.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931055328940-8aqi9c6qv7m8jmi0ifieqskkcvb3r2qa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtoGxYBJLg_dXfppvn6JkCWdW8UfulD3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931055328940-8api9c6qv7m8jpi0ifieqskkcvb3r2qa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "931055328940-bpj860k6v6v73u8i91lhfsgldcau3a50.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.velora.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

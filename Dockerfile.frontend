@@ -1,0 +1,20 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Install dependencies first for caching layer
+COPY web_frontend/package*.json ./
+
+# Install dependencies
+RUN npm ci || npm install
+
+# Copy application files
+COPY web_frontend/ ./
+
+# Build Next.js application
+RUN npm run build
+
+EXPOSE 3000
+
+# Start Next.js production server
+CMD ["npm", "start"]

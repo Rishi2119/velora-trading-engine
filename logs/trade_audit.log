@@ -2365,3 +2365,29 @@
 {"timestamp": "2026-03-05T22:22:48.893895", "event": "ORDER_BLOCKED", "reason": "risk_manager", "detail": "MAX CONCURRENT POSITIONS: 2 / 2", "symbol": "EURUSD"}
 {"timestamp": "2026-03-05T22:23:19.017042", "event": "ORDER_BLOCKED", "reason": "risk_manager", "detail": "MAX CONCURRENT POSITIONS: 2 / 2", "symbol": "EURUSD"}
 {"timestamp": "2026-03-05T22:23:49.093752", "event": "ORDER_BLOCKED", "reason": "risk_manager", "detail": "MAX CONCURRENT POSITIONS: 2 / 2", "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:03:21.644279", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:05:17.298467", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:06:57.946096", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:08:29.750958", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:09:59.767555", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:11:32.897062", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:13:01.983252", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:14:32.234959", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:16:04.368332", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:17:37.548068", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:19:32.342132", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:21:11.630428", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:22:40.791112", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:24:16.745188", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:25:59.599608", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:27:30.430132", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:29:50.564679", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:32:35.701425", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:34:19.289803", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:36:19.412794", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:39:00.763063", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:40:39.240222", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:42:22.713689", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:43:56.906822", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:46:11.985111", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}
+{"timestamp": "2026-03-14T18:47:41.673446", "event": "ORDER_BLOCKED", "reason": "spread_too_wide", "spread": 2.4, "symbol": "EURUSD"}

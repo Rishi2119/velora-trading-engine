@@ -1,1 +1,7 @@
-{"daily_pnl": 0.0, "daily_trades": 4, "last_reset_date": "2026-03-05"}
+{
+  "daily_trades": 0,
+  "daily_pnl": 0.0,
+  "session_open_balance": 10000.0,
+  "current_positions": 0,
+  "last_date": "2026-03-15"
+}

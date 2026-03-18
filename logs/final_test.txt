@@ -1,0 +1,92 @@
+
+======================================================================
+[1m🔬 VELORA ENGINE TEST SUITE[0m
+   2026-03-11 11:21:34
+======================================================================
+
+[1m[1] 1. Config Load[0m
+  [92m✅ PASS[0m config.ENABLE_EXECUTION safe default — False
+  [92m✅ PASS[0m config.RISK_PER_TRADE — 1.0%
+  [92m✅ PASS[0m config.MAGIC_NUMBER — 234000
+
+⚠️ CONFIGURATION WARNINGS:
+   ENGINE_MODE=paper — No real orders will be sent
+   TELEGRAM_BOT_TOKEN not set — Telegram notifications disabled
+   SUPABASE_URL not set — Supabase logging disabled
+  [92m✅ PASS[0m config.validate_config() — OK or warnings only
+
+[1m[2] 2. MT5 Connection[0m
+  [93m⏭  SKIP[0m MT5 connect — No MT5 terminal available — expected in CI
+
+[1m[3] 3. Indicator Calculation[0m
+  [92m✅ PASS[0m ema50
+  [92m✅ PASS[0m ema200
+  [92m✅ PASS[0m rsi
+  [92m✅ PASS[0m atr
+  [92m✅ PASS[0m indicator values — EMA50=1.09777 RSI=77.4
+
+[1m[4] 4. Signal Generation[0m
+  [93m⏭  SKIP[0m signal_generation — No signal in synthetic data — may be normal
+
+[1m[5] 5. Order Validation[0m
+2026-03-11 11:21:48,517 [INFO] mt5_connection: MT5 connect attempt 1/5...
+2026-03-11 11:21:48,558 [WARNING] mt5_connection:   mt5.initialize() failed: (-6, 'Terminal: Authorization failed')
+2026-03-11 11:21:51,558 [INFO] mt5_connection: MT5 connect attempt 2/5...
+2026-03-11 11:21:51,571 [WARNING] mt5_connection:   mt5.initialize() failed: (-6, 'Terminal: Authorization failed')
+2026-03-11 11:21:54,571 [INFO] mt5_connection: MT5 connect attempt 3/5...
+2026-03-11 11:21:54,581 [WARNING] mt5_connection:   mt5.initialize() failed: (-6, 'Terminal: Authorization failed')
+2026-03-11 11:21:57,582 [INFO] mt5_connection: MT5 connect attempt 4/5...
+2026-03-11 11:21:57,592 [WARNING] mt5_connection:   mt5.initialize() failed: (-6, 'Terminal: Authorization failed')
+2026-03-11 11:22:00,593 [INFO] mt5_connection: MT5 connect attempt 5/5...
+2026-03-11 11:22:00,603 [WARNING] mt5_connection:   mt5.initialize() failed: (-6, 'Terminal: Authorization failed')
+2026-03-11 11:22:00,603 [ERROR] mt5_connection: MT5 connection failed after 5 attempts
+  [92m✅ PASS[0m TradeExecutor instantiated
+  [93m⏭  SKIP[0m BUY validate — Symbol not found: EURUSD (no live MT5)
+
+[1m[6] 6. Risk Calculation[0m
+  [92m✅ PASS[0m position_size — 0.01L for $500, 1% risk, 50pip SL
+  [92m✅ PASS[0m rr calculation — 3.0:1
+  [92m✅ PASS[0m rr_passes — True
+  [92m✅ PASS[0m can_trade (fresh) — True: OK
+
+[1m[7] 7. Filter Gate[0m
+  [92m✅ PASS[0m get_current_session() — closed
+  [92m✅ PASS[0m is_trading_session() — False
+  [92m✅ PASS[0m is_news_blackout (fail-open) — blocked=False
+
+[1m[8] 8. Kill Switch[0m
+  [92m✅ PASS[0m kill_switch initially inactive
+2026-03-11 11:22:00,646 [CRITICAL] kill_switch: 🛑 KILL SWITCH ACTIVATED: TEST — automated test run
+2026-03-11 11:22:00,975 [INFO] audit_journal: AuditJournal initialized: logs/audit_journal.csv
+2026-03-11 11:22:01,006 [INFO] audit_journal: Audit: SYSTEM | KILL_SWITCH_ACTIVATED | TEST — automated test run
+  [92m✅ PASS[0m kill_switch.activate()
+  [92m✅ PASS[0m kill_switch.get_status() — reason=TEST — automated test run
+2026-03-11 11:22:01,006 [INFO] kill_switch: ✅ Kill switch deactivated: TEST reset
+  [92m✅ PASS[0m kill_switch.deactivate()
+
+[1m[9] 9. Journal Write[0m
+2026-03-11 11:22:01,025 [INFO] journal: Trade journal CSV created: logs/test_journal.csv
+2026-03-11 11:22:01,285 [INFO] journal: Trade journal initialized (CSV + SQLite)
+  [92m✅ PASS[0m init_journal()
+  [92m✅ PASS[0m log_trade() written
+  [92m✅ PASS[0m get_recent_trades() — symbol=EURUSD
+
+[1m[10] 10. AI Agents[0m
+  [92m✅ PASS[0m ai_agents._default_hold() valid schema
+  [92m✅ PASS[0m AsyncAIAgent instantiated
+  [92m✅ PASS[0m _validate_schema rejects bad output
+  [92m✅ PASS[0m _validate_schema accepts valid output
+
+[1m[11] 11. Telegram Notify[0m
+  [93m⏭  SKIP[0m Telegram — TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID not set in .env
+
+======================================================================
+[1mRESULTS: 11/11 passed[0m  [92m(ALL PASS)[0m
+======================================================================
+
+  mt5.initialize() failed: (-6, 'Terminal: Authorization failed')
+  mt5.initialize() failed: (-6, 'Terminal: Authorization failed')
+  mt5.initialize() failed: (-6, 'Terminal: Authorization failed')
+  mt5.initialize() failed: (-6, 'Terminal: Authorization failed')
+  mt5.initialize() failed: (-6, 'Terminal: Authorization failed')
+MT5 connection failed after 5 attempts

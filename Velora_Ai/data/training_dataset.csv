@@ -1,0 +1,6 @@
+trend_direction,structure_break,liquidity_sweep,pullback,momentum_strength,volatility,support_resistance_strength,session,spread,strategy_type,action
+uptrend,True,False,True,0.8,0.6,0.7,London,0.1,pullback_trend,BUY
+downtrend,False,True,True,0.2,0.7,0.8,NewYork,0.2,liquidity_reversal,SELL
+sideways,True,False,False,0.5,0.4,0.6,Asia,0.15,blackbox_trap,NO_TRADE
+uptrend,False,True,False,0.9,0.8,0.9,London,0.1,structure_bos,BUY
+downtrend,True,False,True,0.1,0.5,0.7,NewYork,0.2,pullback_trend,SELL

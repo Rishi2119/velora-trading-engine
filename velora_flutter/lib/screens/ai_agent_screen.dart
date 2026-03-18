@@ -103,11 +103,11 @@ class _AiAgentScreenState extends State<AiAgentScreen> {
         actions: [
           IconButton(
             icon: Icon(isRunning ? LucideIcons.square : LucideIcons.play),
-            color: isRunning ? AppTheme.error : AppTheme.success,
+            color: isRunning ? VeloraTheme.error : VeloraTheme.success,
             onPressed: () => showDialog(
               context: context,
               builder: (ctx) => AlertDialog(
-                backgroundColor: AppTheme.bgSurface,
+                backgroundColor: VeloraTheme.bgSurface,
                 title: Text(isRunning ? 'Stop AI Agent?' : 'Start AI Agent?'),
                 content: Text(isRunning 
                   ? 'The NIM reasoning engine will pause trading signals immediately.'
@@ -116,7 +116,7 @@ class _AiAgentScreenState extends State<AiAgentScreen> {
                 actions: [
                    TextButton(child: const Text('Cancel'), onPressed: () => Navigator.pop(ctx)),
                    ElevatedButton(
-                      style: ElevatedButton.styleFrom(backgroundColor: isRunning ? AppTheme.error : AppTheme.success),
+                      style: ElevatedButton.styleFrom(backgroundColor: isRunning ? VeloraTheme.error : VeloraTheme.success),
                       onPressed: () { 
                         Navigator.pop(ctx); 
                         _toggleAgent(); 
@@ -134,22 +134,22 @@ class _AiAgentScreenState extends State<AiAgentScreen> {
           // Header Stats
           Container(
             padding: const EdgeInsets.all(16),
-            color: AppTheme.bgSurface,
+            color: VeloraTheme.bgSurface,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Column(
                   children: [
-                    const Text('Status', style: TextStyle(color: AppTheme.textMuted, fontSize: 12)),
+                    Text('Status', style: TextStyle(color: VeloraTheme.textMuted, fontSize: 12)),
                     const SizedBox(height: 4),
-                    Text(isRunning ? 'RUNNING' : 'OFFLINE', style: TextStyle(color: isRunning ? AppTheme.success : AppTheme.warning, fontWeight: FontWeight.bold)),
+                    Text(isRunning ? 'RUNNING' : 'OFFLINE', style: TextStyle(color: isRunning ? VeloraTheme.success : VeloraTheme.warning, fontWeight: FontWeight.bold)),
                   ],
                 ),
                 Column(
                   children: [
-                    const Text('Confidence', style: TextStyle(color: AppTheme.textMuted, fontSize: 12)),
+                    Text('Confidence', style: TextStyle(color: VeloraTheme.textMuted, fontSize: 12)),
                     const SizedBox(height: 4),
-                    Text('$confidence%', style: const TextStyle(color: AppTheme.primary, fontWeight: FontWeight.bold)),
+                    Text('$confidence%', style: const TextStyle(color: VeloraTheme.primary, fontWeight: FontWeight.bold)),
                   ],
                 ),
               ],
@@ -174,9 +174,9 @@ class _AiAgentScreenState extends State<AiAgentScreen> {
                       itemBuilder: (context, index) {
                         final log = _history[index];
                         final Color decisionColor = log['decision'].contains('BUY') || log['decision'].contains('TRADE')
-                            ? AppTheme.success 
-                            : log['decision'].contains('SELL') ? AppTheme.error
-                            : AppTheme.accent;
+                            ? VeloraTheme.success 
+                            : log['decision'].contains('SELL') ? VeloraTheme.error
+                            : VeloraTheme.accent;
 
                         return Padding(
                           padding: const EdgeInsets.only(bottom: 16),

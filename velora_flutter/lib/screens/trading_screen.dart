@@ -70,7 +70,7 @@ class _TradingScreenState extends State<TradingScreen> {
       margin: const EdgeInsets.only(bottom: 12),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: AppTheme.bgCard,
+        color: VeloraTheme.bgCard,
         borderRadius: BorderRadius.circular(12),
         border: Border.all(color: Colors.white.withOpacity(0.05)),
       ),
@@ -89,7 +89,7 @@ class _TradingScreenState extends State<TradingScreen> {
                   Container(
                     padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                     decoration: BoxDecoration(
-                      color: isBuy ? AppTheme.success.withOpacity(0.2) : AppTheme.error.withOpacity(0.2),
+                      color: isBuy ? VeloraTheme.success.withOpacity(0.2) : VeloraTheme.error.withOpacity(0.2),
                       borderRadius: BorderRadius.circular(4),
                     ),
                     child: Text(
@@ -97,7 +97,7 @@ class _TradingScreenState extends State<TradingScreen> {
                       style: TextStyle(
                         fontSize: 10,
                         fontWeight: FontWeight.bold,
-                        color: isBuy ? AppTheme.success : AppTheme.error,
+                        color: isBuy ? VeloraTheme.success : VeloraTheme.error,
                       ),
                     ),
                   )
@@ -108,7 +108,7 @@ class _TradingScreenState extends State<TradingScreen> {
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 16,
-                  color: pnl >= 0 ? AppTheme.success : AppTheme.error,
+                  color: pnl >= 0 ? VeloraTheme.success : VeloraTheme.error,
                 ),
               ),
             ],
@@ -120,22 +120,22 @@ class _TradingScreenState extends State<TradingScreen> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text('ENTRY', style: TextStyle(color: AppTheme.textMuted, fontSize: 10, fontWeight: FontWeight.bold)),
-                  Text('${trade['entry']}', style: const TextStyle(color: AppTheme.textSecondary, fontFamily: 'monospace')),
+                  const Text('ENTRY', style: TextStyle(color: VeloraTheme.textMuted, fontSize: 10, fontWeight: FontWeight.bold)),
+                  Text('${trade['entry']}', style: const TextStyle(color: VeloraTheme.textSecondary, fontFamily: 'monospace')),
                 ],
               ),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  const Text('LOTS', style: TextStyle(color: AppTheme.textMuted, fontSize: 10, fontWeight: FontWeight.bold)),
-                  Text('${trade['lots']}', style: const TextStyle(color: AppTheme.textSecondary, fontFamily: 'monospace')),
+                  const Text('LOTS', style: TextStyle(color: VeloraTheme.textMuted, fontSize: 10, fontWeight: FontWeight.bold)),
+                  Text('${trade['lots']}', style: const TextStyle(color: VeloraTheme.textSecondary, fontFamily: 'monospace')),
                 ],
               ),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
-                  const Text('STATUS', style: TextStyle(color: AppTheme.textMuted, fontSize: 10, fontWeight: FontWeight.bold)),
-                  Text('${trade['status']}', style: const TextStyle(color: AppTheme.primary, fontWeight: FontWeight.bold)),
+                  const Text('STATUS', style: TextStyle(color: VeloraTheme.textMuted, fontSize: 10, fontWeight: FontWeight.bold)),
+                  Text('${trade['status']}', style: const TextStyle(color: VeloraTheme.primary, fontWeight: FontWeight.bold)),
                 ],
               ),
             ],
@@ -158,12 +158,12 @@ class _TradingScreenState extends State<TradingScreen> {
           IconButton(
             icon: Icon(
               _killSwitchActive ? LucideIcons.powerOff : LucideIcons.power, 
-              color: _killSwitchActive ? AppTheme.error : AppTheme.textPrimary,
+              color: _killSwitchActive ? VeloraTheme.error : VeloraTheme.textPrimary,
             ),
             onPressed: () => showDialog(
               context: context,
               builder: (ctx) => AlertDialog(
-                backgroundColor: AppTheme.bgSurface,
+                backgroundColor: VeloraTheme.bgSurface,
                 title: const Text('Confirm Kill Switch'),
                 content: Text(
                   _killSwitchActive 
@@ -172,12 +172,12 @@ class _TradingScreenState extends State<TradingScreen> {
                 ),
                 actions: [
                   TextButton(
-                    child: const Text('Cancel', style: TextStyle(color: AppTheme.textSecondary)),
+                    child: const Text('Cancel', style: TextStyle(color: VeloraTheme.textSecondary)),
                     onPressed: () => Navigator.of(ctx).pop(),
                   ),
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: _killSwitchActive ? AppTheme.primary : AppTheme.error,
+                      backgroundColor: _killSwitchActive ? VeloraTheme.primary : VeloraTheme.error,
                     ),
                     onPressed: () {
                       Navigator.of(ctx).pop();
@@ -195,9 +195,9 @@ class _TradingScreenState extends State<TradingScreen> {
         onRefresh: _fetchData,
         child: _positions.isEmpty 
           ? ListView(
-              children: const [
-                 SizedBox(height: 100),
-                 Center(child: Text('No open positions.', style: TextStyle(color: AppTheme.textMuted)))
+              children: [
+                 const SizedBox(height: 100),
+                 Center(child: Text('No open positions.', style: TextStyle(color: VeloraTheme.textMuted)))
               ]
             )
           : ListView.builder(

@@ -77,36 +77,39 @@ def _demo_analytics(days: int):
 async def get_performance_analytics(days: int = Query(30, ge=1, le=365)):
     """Full analytics: summary, equity curve, strategy and symbol breakdown."""
     try:
-        async with httpx.AsyncClient(timeout=5.0) as client:
-            resp = await client.get(
-                f"{BASE_URL}/api/performance",
-                headers=_headers(),
-                params={"days": days},
-            )
-            raw = resp.json()
+        from journal import get_performance_summary
+        # Try to get live data from MT5 first if connected
+        from backend.utils.mt5_manager import mt5_manager
+        if mt5_manager.connected:
+            raw = mt5_manager.get_performance_summary(days=days)
+            if raw:
+                return {
+                    "summary": {
+                        "total_pnl": raw.get("total_pnl", 0),
+                        "win_rate": raw.get("win_rate", 0),
+                        "profit_factor": raw.get("profit_factor", 0),
+                        "max_drawdown": raw.get("max_drawdown", 0),
+                        "balance": raw.get("balance", 0),
+                        "equity": raw.get("equity", 0),
+                    },
+                    "equity_curve": raw.get("daily", []),
+                    "live": True
+                }
 
-        # Enrich with breakdown data
-        curve = raw.get("daily", [])
-        summary = raw.get("summary", {})
+        # Fallback to local journal DB
+        summary = get_performance_summary(days=days)
         return {
-            "summary": summary,
-            "equity_curve": curve,
-            "by_strategy": {
-                "VOLATILITY_BREAKOUT": {"trades": 24, "pnl": 68.5, "win_rate": 66.7},
-                "LONDON_BREAKOUT":     {"trades": 22, "pnl": 42.3, "win_rate": 59.1},
-                "AGGRESSIVE_TREND":    {"trades": 21, "pnl": 19.4, "win_rate": 61.9},
-                "MEAN_REVERSION":      {"trades": 20, "pnl": 12.1, "win_rate": 60.0},
+            "summary": {
+                "total_trades": summary.get("total_trades", 0),
+                "winning_trades": summary.get("winning_trades", 0),
+                "losing_trades": summary.get("losing_trades", 0),
+                "win_rate": summary.get("win_rate", 0),
             },
-            "by_symbol": {
-                "EURUSD": {"trades": 33, "pnl": 55.2, "win_rate": 63.6},
-                "GBPUSD": {"trades": 22, "pnl": 38.7, "win_rate": 59.1},
-                "USDCAD": {"trades": 18, "pnl": 28.4, "win_rate": 66.7},
-                "AUDUSD": {"trades": 14, "pnl": 20.0, "win_rate": 57.1},
-            },
-            "live": raw.get("live", False),
+            "equity_curve": summary.get("daily", []),
+            "live": False
         }
     except Exception as e:
-        logger.warning(f"Analytics proxy failed: {e}")
+        logger.warning(f"Analytics retrieval failed: {e}")
         return _demo_analytics(days)
 
 
@@ -114,13 +117,8 @@ async def get_performance_analytics(days: int = Query(30, ge=1, le=365)):
 async def get_equity_curve(days: int = Query(30, ge=1, le=365)):
     """Equity curve only."""
     try:
-        async with httpx.AsyncClient(timeout=5.0) as client:
-            resp = await client.get(
-                f"{BASE_URL}/api/performance",
-                headers=_headers(),
-                params={"days": days},
-            )
-            raw = resp.json()
-            return {"curve": raw.get("daily", []), "live": raw.get("live", False)}
+        from journal import get_performance_summary
+        summary = get_performance_summary(days=days)
+        return {"curve": summary.get("daily", []), "live": False}
     except Exception:
         return {"curve": _generate_equity_curve(days), "live": False, "demo_mode": True}

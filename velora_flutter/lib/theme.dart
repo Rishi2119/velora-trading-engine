@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class AppTheme {
+class VeloraTheme {
   // Brand
   static const Color primary = Color(0xFF6366f1);
   static const Color secondary = Color(0xFF8b5cf6);
@@ -11,6 +11,15 @@ class AppTheme {
   static const Color bgSurface = Color(0xFF111318);
   static const Color bgCard = Color(0xFF161921);
   static const Color bgElevated = Color(0xFF1d2029);
+
+  // Property Aliases for Screens
+  static const Color backgroundColor = bgBase;
+  static const Color surfaceColor = bgSurface;
+  static const Color cardColor = bgCard;
+  static const Color primaryColor = primary;
+  static const Color successColor = success;
+  static const Color errorColor = error;
+  static const Color warningColor = warning;
 
   // Text
   static const Color textPrimary = Color(0xFFf1f2f6);

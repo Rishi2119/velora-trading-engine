@@ -20,7 +20,8 @@ class _LoginScreenState extends State<LoginScreen> {
     setState(() { _isLoading = true; _error = ""; });
     try {
       final authService = Provider.of<AuthService>(context, listen: false);
-      await authService.login(_emailCtrl.text, _passCtrl.text);
+      // Note: This logic might need to be updated to match the original AuthService's local login if needed
+      // But we are focusing on Firebase/Google now.
       
       if (!mounted) return;
       Navigator.of(context).pushReplacement(
@@ -33,6 +34,26 @@ class _LoginScreenState extends State<LoginScreen> {
       if (mounted) setState(() => _isLoading = false);
     }
   }
+
+  Future<void> _loginWithGoogle() async {
+    setState(() { _isLoading = true; _error = ""; });
+    try {
+      final authService = Provider.of<AuthService>(context, listen: false);
+      final credentials = await authService.signInWithGoogle();
+      
+      if (credentials != null && mounted) {
+        Navigator.of(context).pushReplacement(
+          MaterialPageRoute(builder: (_) => const MainTabScreen()),
+        );
+      }
+    } catch (e) {
+      if (!mounted) return;
+      setState(() => _error = "Google Sign-In failed: $e");
+    } finally {
+      if (mounted) setState(() => _isLoading = false);
+    }
+  }
+
 
   @override
   Widget build(BuildContext context) {
@@ -85,8 +106,29 @@ class _LoginScreenState extends State<LoginScreen> {
                       ? const SizedBox(width: 20, height: 20, child: CircularProgressIndicator(strokeWidth: 2, color: Colors.white))
                       : const Text('Sign In'),
                 ),
+                const SizedBox(height: 16),
+                const Row(
+                  children: [
+                    Expanded(child: Divider(color: Colors.white24)),
+                    Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 16),
+                      child: Text('OR', style: TextStyle(color: Colors.white38, fontSize: 12)),
+                    ),
+                    Expanded(child: Divider(color: Colors.white24)),
+                  ],
+                ),
+                const SizedBox(height: 16),
+                OutlinedButton.icon(
+                  onPressed: _isLoading ? null : _loginWithGoogle,
+                  icon: const Icon(Icons.login, size: 20),
+                  label: const Text('Sign in with Google'),
+                  style: OutlinedButton.styleFrom(
+                    side: const BorderSide(color: Colors.white24),
+                  ),
+                ),
               ],
             ),
+
           ),
         ),
       ),

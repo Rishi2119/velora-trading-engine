@@ -246,6 +246,13 @@ class MT5TradeExecutor:
             order_type = mt5.ORDER_TYPE_BUY if direction == "BUY" else mt5.ORDER_TYPE_SELL
             deviation = int(self.max_slippage_pips * 10)  # points
 
+            # SL/TP Normalization
+            digits = sym_info.digits
+            point = sym_info.point
+            
+            normalized_sl = round(sl, digits) if sl > 0 else 0.0
+            normalized_tp = round(tp, digits) if tp > 0 else 0.0
+
             # Determine the broker-supported filling mode dynamically
             filling_mode_mask = sym_info.filling_mode
             if filling_mode_mask & 1:
@@ -267,13 +274,13 @@ class MT5TradeExecutor:
                 "type_time": mt5.ORDER_TIME_GTC,
                 "type_filling": filling,
             }
-            if sl > 0:
-                request["sl"] = sl
-            if tp > 0:
-                request["tp"] = tp
+            if normalized_sl > 0:
+                request["sl"] = normalized_sl
+            if normalized_tp > 0:
+                request["tp"] = normalized_tp
 
             # 9. Submit order
-            logger.info(f"Placing {direction} {volume} {symbol} @ {price} SL={sl} TP={tp}")
+            logger.info(f"Placing {direction} {volume} {symbol} @ {price} SL={normalized_sl} TP={normalized_tp}")
             result = mt5.order_send(request)
 
             # 10. Process result

@@ -4,7 +4,7 @@ Unified backend connecting all services.
 """
 import logging
 from contextlib import asynccontextmanager
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Request, WebSocket
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from slowapi import Limiter, _rate_limit_exceeded_handler
@@ -21,9 +21,12 @@ from backend.api.trading import router as trading_router
 from backend.api.analytics import router as analytics_router
 from backend.api.ai import router as ai_router
 from backend.api.market import router as market_router
+from backend.api.ws_feed import ws_feed_handler
+from backend.api.engine import router as engine_router
+from backend.api.strategy import router as strategy_router
 
 # ── Rate Limiter ──────────────────────────────────────────────────────────────
-limiter = Limiter(key_func=get_remote_address, default_limits=["200/minute"])
+from backend.utils.limiter import limiter
 
 
 # ── Lifespan ──────────────────────────────────────────────────────────────────
@@ -73,11 +76,11 @@ app = FastAPI(
 app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)  # type: ignore
 
-# CORS
+# CORS — restrict to configured origins
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=False,
+    allow_origins=settings.cors_origins_list,
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -99,6 +102,15 @@ app.include_router(trading_router,  prefix="/api/v1")
 app.include_router(analytics_router,prefix="/api/v1")
 app.include_router(ai_router,       prefix="/api/v1")
 app.include_router(market_router,   prefix="/api/v1")
+app.include_router(engine_router,   prefix="/api/v1")
+app.include_router(strategy_router, prefix="/api/v1")
+
+
+# ── WebSocket Feed ────────────────────────────────────────────────────────────
+@app.websocket("/ws/feed")
+async def websocket_feed(websocket: WebSocket):
+    """Real-time engine event feed."""
+    await ws_feed_handler(websocket)
 
 
 # ── Root + Health ─────────────────────────────────────────────────────────────

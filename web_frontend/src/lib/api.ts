@@ -147,7 +147,7 @@ export const trading = {
         request(`${API_BASE}/trading/strategies`, { method: "PUT", body: JSON.stringify(body) }),
     mt5Status: () => request<any>(`${API_BASE}/trading/mt5/status`),
     connectMT5: (body: { account: string; password: string; server: string }) =>
-        request(`${API_BASE}/trading/mt5/connect`, { method: "POST", body: JSON.stringify(body) }),
+        request<{ connected: boolean; error?: string }>(`${API_BASE}/trading/mt5/connect`, { method: "POST", body: JSON.stringify(body) }),
     disconnectMT5: () => request(`${API_BASE}/trading/mt5/disconnect`, { method: "POST" }),
     killSwitch: () => request<{ active: boolean }>(`${API_BASE}/trading/kill-switch`),
     activateKillSwitch: () => request(`${API_BASE}/trading/kill-switch/activate`, { method: "POST" }),
@@ -195,9 +195,13 @@ export interface PriceTick {
 export const market = {
     prices: () => request<{ prices: PriceTick[]; timestamp: string }>(`${API_BASE}/market/prices`),
     wsUrl: () => {
-        const wsBase = (process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000")
-            .replace("http://", "ws://")
-            .replace("https://", "wss://");
+        const urlStr = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
+        const wsBase = urlStr.replace("http://", "ws://").replace("https://", "wss://");
+        
+        // If url already contains /api/v1, don't append it again
+        if (wsBase.endsWith("/api/v1")) {
+            return `${wsBase}/market/stream`;
+        }
         return `${wsBase}/api/v1/market/stream`;
     },
 };

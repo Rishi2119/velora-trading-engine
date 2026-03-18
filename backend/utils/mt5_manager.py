@@ -7,6 +7,10 @@ import os
 import json
 import threading
 from datetime import datetime, timedelta
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 MT5_AVAILABLE = False
 mt5 = None
@@ -47,18 +51,28 @@ class MT5Manager:
             except Exception:
                 pass
 
-            if not mt5.initialize():
+            # Get terminal path from env
+            mt5_path = os.getenv("MT5_PATH", "")
+            
+            if mt5_path:
+                init_ok = mt5.initialize(path=mt5_path)
+            else:
+                init_ok = mt5.initialize()
+
+            if not init_ok:
                 err = mt5.last_error()
                 self.connected = False
-                self.last_error = f"MT5 initialize failed ({err[0]}): {err[1]}. Ensure MetaTrader 5 is running."
+                self.last_error = f"MT5 initialize failed ({err[0]}): {err[1]}. Ensure MetaTrader 5 path is correct."
                 return {"connected": False, "error": self.last_error}
 
             try:
-                ok = mt5.login(login=int(account), password=str(password), server=str(server))
+                # Ensure account is int
+                login_id = int(account)
+                ok = mt5.login(login=login_id, password=str(password), server=str(server))
             except Exception as e:
                 mt5.shutdown()
                 self.connected = False
-                self.last_error = str(e)
+                self.last_error = f"MT5 Login Exception: {str(e)}"
                 return {"connected": False, "error": self.last_error}
 
             if not ok:
@@ -69,6 +83,10 @@ class MT5Manager:
                 return {"connected": False, "error": self.last_error}
 
             self.connected = True
+            
+            # Select common symbol to warm up
+            mt5.symbol_select("EURUSD", True)
+            
             self.last_error = None
             self.credentials = {"account": account, "password": password, "server": server}
             info = mt5.account_info()

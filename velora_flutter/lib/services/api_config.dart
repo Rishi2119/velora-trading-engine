@@ -32,15 +32,18 @@ class ApiConfig {
 
     // Auto-detect Localhost based on platform
     if (defaultTargetPlatform == TargetPlatform.android) {
-      // Android Emulator maps 10.0.2.2 to the host machine's localhost
       return 'http://10.0.2.2:$_port/api/v1';
     } else if (defaultTargetPlatform == TargetPlatform.iOS || defaultTargetPlatform == TargetPlatform.macOS) {
-      // iOS Simulator can access host machine's localhost directly
       return 'http://localhost:$_port/api/v1';
     } else {
-      // Fallback for Desktop
       return 'http://127.0.0.1:$_port/api/v1';
     }
+  }
+
+  /// WebSocket URL — matches baseUrl host but with ws:// scheme
+  static String get wsUrl {
+    final base = baseUrl.replaceFirst('/api/v1', '');
+    return base.replaceFirst('http://', 'ws://').replaceFirst('https://', 'wss://') + '/ws/feed';
   }
 
   /// Initialize environment config (load .env)

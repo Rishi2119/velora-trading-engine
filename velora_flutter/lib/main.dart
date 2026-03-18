@@ -9,8 +9,11 @@ import 'services/ai_agent_service.dart';
 import 'screens/login_screen.dart';
 import 'screens/main_tab_screen.dart';
 
+import 'package:firebase_core/firebase_core.dart';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   
   await ApiConfig.init();
   
@@ -45,7 +48,7 @@ class VeloraApp extends StatelessWidget {
 
     return MaterialApp(
       title: 'Velora',
-      theme: AppTheme.darkTheme,
+      theme: VeloraTheme.darkTheme,
       debugShowCheckedModeBanner: false,
       home: authService.isLoggedIn ? const MainTabScreen() : const LoginScreen(),
     );
